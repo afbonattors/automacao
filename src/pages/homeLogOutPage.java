@@ -24,5 +24,4 @@ public class homeLogOutPage extends baseTest{
 		return baseTest.getDriver().findElement(By.cssSelector("#formHeaderNav2 > p.cadastreseDesktop > a.cadastreSe"));
 		
 	}
-
 }
