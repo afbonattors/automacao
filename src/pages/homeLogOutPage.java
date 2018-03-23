@@ -9,7 +9,7 @@ public class homeLogOutPage extends baseTest{
 	
 	public static WebElement minhaConta() {
 		
-		return baseTest.getDriver().findElement(By.className("a.btdropdown boxlogadoDesktop"));
+		return baseTest.getDriver().findElement(By.cssSelector("btdropdown.boxlogadoDesktop"));
 		
 	}
 	
