@@ -1,10 +1,12 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 <?xml version="1.0" encoding="UTF-8"?>
-<suite name="Suite_Teste_1">
-    <test name="Teste1">
+<suite name="suiteDeTeste">
+    <listeners>
+        <listener class-name="br.com.Etna.report.testHome" />
+    </listeners>
+    <test name="testhome">
         <classes>
-            <class
-                name="testesuite1.TesteSuite1" />
+            <class name="br.com.Etna.testHome" />
         </classes>
     </test>
 </suite>
