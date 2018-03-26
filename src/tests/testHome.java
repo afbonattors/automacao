@@ -12,7 +12,7 @@ import scripts.homeScript;
 
 public class testHome extends baseTest {
 
-    @Test
+    @Test ( priority= 0)
 
     public void testLogin() {
 
@@ -32,7 +32,7 @@ public class testHome extends baseTest {
 
     }
 
-    @Test
+    @Test (priority = 1)
 
     public void testCategorias() {
 
@@ -92,7 +92,7 @@ public class testHome extends baseTest {
 
     }
 
-    @Test
+    /*@Test
 
     public void testHeader() {
 
@@ -106,18 +106,6 @@ public class testHome extends baseTest {
 
         Assert.assertTrue(homePage.iconeCarrinho().isEnabled());
 
-    }
-    
-	@Test
-	
-	public void testLogOut() {
-		
-		logOutScript.clicaMinhaConta();
-		
-		logOutScript.clicaSair();
-		
-		Assert.assertTrue(homeLogOutPage.cadastreSe().isDisplayed());  
-	  
-	}
+    }*/
 
 }
