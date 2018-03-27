@@ -7,8 +7,6 @@
         <methods>
           <include name="testHeader"/>
           <include name="setUp"/>
-          <include name="testLogin"/>
-          <include name="testCategorias"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- tests.testHome -->
