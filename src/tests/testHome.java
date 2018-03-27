@@ -92,7 +92,7 @@ public class testHome extends baseTest {
 
     }
 
-    /*@Test
+    @Test
 
     public void testHeader() {
 
@@ -105,7 +105,13 @@ public class testHome extends baseTest {
         Assert.assertTrue(homePage.nossasLojas().isEnabled());
 
         Assert.assertTrue(homePage.iconeCarrinho().isEnabled());
+        
+        Assert.assertTrue(logOutScript.minhaConta().isDisplayed());
+        
+        logOutScript.clicaMinhaConta();
+        
+        logOutScript.clicaSair();
 
-    }*/
+    }
 
 }
