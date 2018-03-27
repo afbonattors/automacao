@@ -9,7 +9,7 @@ public class homeLogOutPage extends baseTest{
 	
 	public static WebElement minhaConta() {
 		
-		return baseTest.getDriver().findElement(By.xpath("/html/body/div[3]/header/div/div[2]/ul/li[3]/a[1]"));
+		return baseTest.getDriver().findElement(By.cssSelector("body > div.wrapper > header > div > div.buscaecarrinho.ng-scope > ul > li.logar.logado.act.botoes-top > a.btdropdown.boxlogadoDesktop"));
 		
 	}
 	
