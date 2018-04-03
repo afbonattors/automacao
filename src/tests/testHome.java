@@ -92,30 +92,4 @@ public class testHome extends baseTest {
 
     }
 
-    @Test
-
-    public void testHeader() throws Exception  {
-
-        /*Assert.assertTrue(homePage.logoEtna().isDisplayed());
-
-        Assert.assertTrue(homePage.textfiledBusca().isEnabled());
-
-        Assert.assertTrue(homePage.listaCasamento().isEnabled());
-
-        Assert.assertTrue(homePage.nossasLojas().isEnabled());
-
-        Assert.assertTrue(homePage.iconeCarrinho().isEnabled());
-        
-        Assert.assertTrue(logOutScript.minhaConta().isDisplayed());*/
-        
-        Thread.sleep(1000);
-        
-        logOutScript.clicaMinhaConta();
-        
-        Thread.sleep(1000);
-        
-        logOutScript.clicaSair();
-
-    }
-
 }
