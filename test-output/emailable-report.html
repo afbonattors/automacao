@@ -9,9 +9,9 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="7">Default suite</th></tr>
-<tr><td><a href="#t0">Default test</a></td><td class="num">2</td><td class="num">0</td><td class="num attn">1</td><td class="num">348.752</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Default test</a></td><td class="num">2</td><td class="num">0</td><td class="num attn">1</td><td class="num">374.151</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">tests.testHome</td><td><a href="#m0">testHeader</a></td><td rowspan="1">1522166796693</td><td rowspan="1">300297</td></tr><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">tests.testHome</td><td><a href="#m1">testCategorias</a></td><td rowspan="1">1522167123844</td><td rowspan="1">357</td></tr><tr class="passedeven"><td><a href="#m2">testLogin</a></td><td rowspan="1">1522167097003</td><td rowspan="1">26837</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">tests.testHome</td><td><a href="#m0">testHeader</a></td><td rowspan="1">1522172761035</td><td rowspan="1">301080</td></tr><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">tests.testHome</td><td><a href="#m1">testCategorias</a></td><td rowspan="1">1522173095163</td><td rowspan="1">416</td></tr><tr class="passedeven"><td><a href="#m2">testLogin</a></td><td rowspan="1">1522173062115</td><td rowspan="1">33044</td></tr></tbody>
 </table>
 <h2>Default test</h2><h3 id="m0">tests.testHome#testHeader</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;body &gt; div.wrapper &gt; header &gt; div &gt; div.buscaecarrinho.ng-scope &gt; ul &gt; li.logar.logado.act.botoes-top &gt; a.btdropdown.boxlogadoDesktop&quot;}
   (Session info: chrome=65.0.3325.181)
@@ -22,7 +22,7 @@ Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &a
 System info: host: &apos;DESKTOP-QE6D7HJ&apos;, ip: &apos;172.16.4.189&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544315 (730aa6a5fdba15..., userDataDir: C:\Users\OBJECT~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
-Session ID: 5fcadf253bc6f37cdb0ea2360a035e38
+Session ID: 86e85c29701f57e41573d699f2753920
 *** Element info: {Using=css selector, value=body &gt; div.wrapper &gt; header &gt; div &gt; div.buscaecarrinho.ng-scope &gt; ul &gt; li.logar.logado.act.botoes-top &gt; a.btdropdown.boxlogadoDesktop}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
@@ -41,7 +41,8 @@ Session ID: 5fcadf253bc6f37cdb0ea2360a035e38
 	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)
 	at pages.homeLogOutPage.minhaConta(homeLogOutPage.java:12)
-	at tests.testHome.testHeader(testHome.java:109)
+	at scripts.logOutScript.clicaMinhaConta(logOutScript.java:9)
+	at tests.testHome.testHeader(testHome.java:113)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)

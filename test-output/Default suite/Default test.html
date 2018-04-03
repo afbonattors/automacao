@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>2/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Tue Mar 27 13:06:16 BRT 2018</td>
+<td>Started on:</td><td>Tue Mar 27 14:45:22 BRT 2018</td>
 </tr>
-<tr><td>Total time:</td><td>348 seconds (348752 ms)</td>
+<tr><td>Total time:</td><td>374 seconds (374151 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -85,7 +85,7 @@ Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &a
 System info: host: &apos;DESKTOP-QE6D7HJ&apos;, ip: &apos;172.16.4.189&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544315 (730aa6a5fdba15..., userDataDir: C:\Users\OBJECT~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
-Session ID: 5fcadf253bc6f37cdb0ea2360a035e38
+Session ID: 86e85c29701f57e41573d699f2753920
 *** Element info: {Using=css selector, value=body &gt; div.wrapper &gt; header &gt; div &gt; div.buscaecarrinho.ng-scope &gt; ul &gt; li.logar.logado.act.botoes-top &gt; a.btdropdown.boxlogadoDesktop}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
@@ -104,7 +104,8 @@ Session ID: 5fcadf253bc6f37cdb0ea2360a035e38
 	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)
 	at pages.homeLogOutPage.minhaConta(homeLogOutPage.java:12)
-	at tests.testHome.testHeader(testHome.java:109)
+	at scripts.logOutScript.clicaMinhaConta(logOutScript.java:9)
+	at tests.testHome.testHeader(testHome.java:113)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -130,8 +131,8 @@ Session ID: 5fcadf253bc6f37cdb0ea2360a035e38
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1813666644", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1813666644'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;body &gt; div.wrapper &gt; header &gt; div &gt; div.buscaecarrinho.ng-scope &gt; ul &gt; li.logar.logado.act.botoes-top &gt; a.btdropdown.boxlogadoDesktop&quot;}
+</pre></div><a href='#' onClick='toggleBox("stack-trace664070838", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace664070838'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;body &gt; div.wrapper &gt; header &gt; div &gt; div.buscaecarrinho.ng-scope &gt; ul &gt; li.logar.logado.act.botoes-top &gt; a.btdropdown.boxlogadoDesktop&quot;}
   (Session info: chrome=65.0.3325.181)
   (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
@@ -140,7 +141,7 @@ Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &a
 System info: host: &apos;DESKTOP-QE6D7HJ&apos;, ip: &apos;172.16.4.189&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544315 (730aa6a5fdba15..., userDataDir: C:\Users\OBJECT~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
-Session ID: 5fcadf253bc6f37cdb0ea2360a035e38
+Session ID: 86e85c29701f57e41573d699f2753920
 *** Element info: {Using=css selector, value=body &gt; div.wrapper &gt; header &gt; div &gt; div.buscaecarrinho.ng-scope &gt; ul &gt; li.logar.logado.act.botoes-top &gt; a.btdropdown.boxlogadoDesktop}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
@@ -159,7 +160,8 @@ Session ID: 5fcadf253bc6f37cdb0ea2360a035e38
 	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)
 	at pages.homeLogOutPage.minhaConta(homeLogOutPage.java:12)
-	at tests.testHome.testHeader(testHome.java:109)
+	at scripts.logOutScript.clicaMinhaConta(logOutScript.java:9)
+	at tests.testHome.testHeader(testHome.java:113)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -186,7 +188,7 @@ Session ID: 5fcadf253bc6f37cdb0ea2360a035e38
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>300</td>
+<td>301</td>
 <td>tests.testHome@14acaea5</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
@@ -204,7 +206,7 @@ Session ID: 5fcadf253bc6f37cdb0ea2360a035e38
 <tr>
 <td title='tests.testHome.testLogin()'><b>testLogin</b><br>Test class: tests.testHome</td>
 <td></td>
-<td>26</td>
+<td>33</td>
 <td>tests.testHome@14acaea5</td></tr>
 </table><p>
 </body>
