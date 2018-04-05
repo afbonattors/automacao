@@ -91,5 +91,13 @@ public class testHome extends baseTest {
         Assert.assertTrue(catMais.contains(mais));
 
     }
+    
+    @Test (priority = 2)
+    
+    public void testLogOut() {
+    	
+    	
+    	
+    }
 
 }
