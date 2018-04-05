@@ -29,6 +29,12 @@ public class pesquisaProdutoPage {
 		
 		return baseTest.getDriver().findElement(By.cssSelector("body > div.wrapper > header > div > div.buscaecarrinho.ng-scope > ul > li.carrinho > div > div.total > a.lkfinalizar"));
 		
-	}	
+	}
+	
+	public static WebElement nomeProduto() {
+		
+		return baseTest.getDriver().findElement(By.partialLinkText("REDONDO BRIGITE BRANCO"));
+		
+	}
 
 }

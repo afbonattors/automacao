@@ -6,7 +6,9 @@ import org.testng.annotations.Test;
 import tests.testHome;
 import pages.homeLogOutPage;
 import pages.homePage;
+import pages.pesquisaProdutoPage;
 import scripts.logOutScript;
+import scripts.pesquisaProdutoScript;
 import utils.baseTest;
 import scripts.homeScript;
 
@@ -16,7 +18,7 @@ public class testHome extends baseTest {
 
     public void testLogin() {
     	
-    	System.out.println("Teste de login");
+    	System.out.println("Teste de login.");
 
         homeScript.clicaFacaLogin();
 
@@ -38,7 +40,7 @@ public class testHome extends baseTest {
 
     public void testCategorias() {
     	
-    	System.out.println("Teste de validação das categorias");
+    	System.out.println("Teste de validação das categorias.");
 
         String catMoveis = homePage.catMoveis().getText();
 
@@ -102,7 +104,7 @@ public class testHome extends baseTest {
     
     public void testLogOut() throws Exception {
     	
-    	System.out.println("Teste de Logout");
+    	System.out.println("Teste de Logout.");
     	
     	logOutScript.clicaMinhaConta();
     	
@@ -113,6 +115,27 @@ public class testHome extends baseTest {
     	Thread.sleep(1000);
     	
     	Assert.assertTrue(homeLogOutPage.cadastreSe().isDisplayed());
+    	
+    }
+    
+    @Test (prority = 2)
+    
+    public void testAddCart() throws Exception {
+    	
+    	System.out.println("Teste adiciona produto ao carrinho.");
+    	
+    	pesquisaProdutoScript.clicaLupa();
+    	
+    	Thread.sleep(1000);
+    	
+    	Assert.assertTrue(pesquisaProdutoPage.gridProdutos().isEnabled());
+    	
+    	pesquisaProdutoScript.compraVelaRedondo();
+    	
+    	Thread.sleep(1000);
+    	
+    	Assert.assertTrue(pesquisaProdutoPage.nomeProduto().isDisplayed());
+    	
     	
     }
 
