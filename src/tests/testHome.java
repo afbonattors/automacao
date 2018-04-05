@@ -102,13 +102,9 @@ public class testHome extends baseTest {
     	
     	logOutScript.clicaSair();
     	
-    	Thread.sleep(1000); 	
+    	Thread.sleep(1000);
     	
-    	String clicaMinhaConta = homeLogOutPage.minhaConta().getText();
-    	
-    	String facaseulogin = "olá, faça seu login";
-    	
-    	Assert.assertTrue(clicaMinhaConta.contains(facaseulogin));
+    	Assert.assertTrue(homeLogOutPage.cadastreSe().isDisplayed());
     	
     }
 
