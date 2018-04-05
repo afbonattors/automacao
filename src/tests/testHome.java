@@ -94,9 +94,21 @@ public class testHome extends baseTest {
     
     @Test (priority = 2)
     
-    public void testLogOut() {
+    public void testLogOut() throws Exception {
     	
+    	logOutScript.clicaMinhaConta();
     	
+    	Thread.sleep(1000);
+    	
+    	logOutScript.clicaSair();
+    	
+    	Thread.sleep(1000); 	
+    	
+    	String clicaMinhaConta = homeLogOutPage.minhaConta().getText();
+    	
+    	String facaseulogin = "olá, faça seu login";
+    	
+    	Assert.assertTrue(clicaMinhaConta.contains(facaseulogin));
     	
     }
 

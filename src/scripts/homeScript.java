@@ -4,7 +4,7 @@ import pages.homePage;
 
 public class homeScript extends homePage {
 
-    public static void clicaFacaLogin(){
+    public static void clicaFacaLogin() {
 
         facaSeuLogin().click();
 
