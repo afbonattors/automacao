@@ -7,7 +7,7 @@ import utils.baseTest;
 
 public class pesquisaProdutoPage {
 	
-	public static WebElement lLupaPesquisa() {
+	public static WebElement lupaPesquisa() {
 		
 		return baseTest.getDriver().findElement(By.cssSelector("#busca-mobile > span > button"));
 		

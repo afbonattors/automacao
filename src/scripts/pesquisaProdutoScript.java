@@ -6,10 +6,14 @@ public class pesquisaProdutoScript extends pesquisaProdutoPage {
 	
 	public static void clicaLupa() {
 		
-		lLupaPesquisa().click();
+		lupaPesquisa().click();
 		
 	}
 	
-	public static void 
+	public static void compraVelaRedondo() {
+		
+		clicaComprar().click();
+		
+	}
 
 }
