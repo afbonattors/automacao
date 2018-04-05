@@ -15,6 +15,8 @@ public class testHome extends baseTest {
     @Test ( priority= 0)
 
     public void testLogin() {
+    	
+    	System.out.println("Teste de login");
 
         homeScript.clicaFacaLogin();
 
@@ -35,6 +37,8 @@ public class testHome extends baseTest {
     @Test (priority = 1)
 
     public void testCategorias() {
+    	
+    	System.out.println("Teste de validação das categorias");
 
         String catMoveis = homePage.catMoveis().getText();
 
@@ -95,6 +99,8 @@ public class testHome extends baseTest {
     @Test (priority = 2)
     
     public void testLogOut() throws Exception {
+    	
+    	System.out.println("Teste de Logout");
     	
     	logOutScript.clicaMinhaConta();
     	
