@@ -100,7 +100,7 @@ public class testHome extends baseTest {
     
     
     
-    @Test (priority = 22)
+    @Test (priority = 3)
     
     public void testLogOut() throws Exception {
     	
@@ -118,7 +118,7 @@ public class testHome extends baseTest {
     	
     }
     
-    @Test (prority = 2)
+    @Test (priority = 2)
     
     public void testAddCart() throws Exception {
     	
