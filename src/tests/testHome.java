@@ -1,5 +1,6 @@
 package tests;
 
+import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -14,7 +15,7 @@ import scripts.homeScript;
 
 public class testHome extends baseTest {
 
-    @Test (priority= 0)
+    @Test (priority= 1)
 
     public void testLogin() {
     	
@@ -36,7 +37,7 @@ public class testHome extends baseTest {
         
         } 
 
-    @Test (priority = 1)
+    @Test (priority = 2)
 
     public void testCategorias() {
     	
@@ -100,7 +101,7 @@ public class testHome extends baseTest {
     
     
     
-    @Test (priority = 3)
+    @Test (priority = 4)
     
     public void testLogOut() throws Exception {
     	
@@ -118,7 +119,7 @@ public class testHome extends baseTest {
     	
     }
     
-    @Test (priority = 2)
+    @Test (priority = 3)
     
     public void testAddCart() throws Exception {
     	
@@ -129,6 +130,8 @@ public class testHome extends baseTest {
     	Thread.sleep(1000);
     	
     	Assert.assertTrue(pesquisaProdutoPage.gridProdutos().isEnabled());
+    	
+    	Thread.sleep(1000);
     	
     	pesquisaProdutoScript.compraVelaRedondo();
     	
