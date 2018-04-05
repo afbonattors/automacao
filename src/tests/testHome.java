@@ -12,7 +12,7 @@ import scripts.homeScript;
 
 public class testHome extends baseTest {
 
-    @Test ( priority= 0)
+    @Test (priority= 0)
 
     public void testLogin() {
     	
@@ -29,10 +29,10 @@ public class testHome extends baseTest {
         String usuarioLogado = homePage.usuarioLogado().getText();
 
         String usuarioLogadoCorreto = "afbonatto";
-
+        
         Assert.assertTrue(usuarioLogado.contains(usuarioLogadoCorreto));
-
-    }
+        
+        } 
 
     @Test (priority = 1)
 
