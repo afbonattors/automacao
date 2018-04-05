@@ -18,6 +18,12 @@ public class pesquisaProdutoPage {
 		
 	}
 	
+	public static WebElement produtoVelaRedondo() {
+		
+		return baseTest.getDriver().findElement(By.id("0030838"));
+		
+	}
+	
 	public static WebElement clicaComprar() {
 		
 		return baseTest.getDriver().findElement(By.cssSelector("#\\30 030838 > a.bt-c-ag"));

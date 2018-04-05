@@ -1,6 +1,10 @@
 package tests;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.ExpectedCondition;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Wait;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -97,9 +101,7 @@ public class testHome extends baseTest {
 
         Assert.assertTrue(catMais.contains(mais));
 
-    }
-    
-    
+    } 
     
     @Test (priority = 4)
     
@@ -130,6 +132,14 @@ public class testHome extends baseTest {
     	Thread.sleep(1000);
     	
     	Assert.assertTrue(pesquisaProdutoPage.gridProdutos().isEnabled());
+    	
+    	Thread.sleep(1000);
+    	
+    	Actions action = new Actions(getDriver());
+    	
+    	Thread.sleep(1000);
+    	
+    	action.moveToElement(pesquisaProdutoPage.produtoVelaRedondo()).build().perform();
     	
     	Thread.sleep(1000);
     	

@@ -7,6 +7,8 @@
         <methods>
           <include name="testAddCart"/>
           <include name="setUp"/>
+          <include name="testLogin"/>
+          <include name="testCategorias"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- tests.testHome -->
