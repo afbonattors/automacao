@@ -96,7 +96,9 @@ public class testHome extends baseTest {
 
     }
     
-    @Test (priority = 2)
+    
+    
+    @Test (priority = 22)
     
     public void testLogOut() throws Exception {
     	
