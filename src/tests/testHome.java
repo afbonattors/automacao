@@ -149,6 +149,15 @@ public class testHome extends baseTest {
     	
     	Assert.assertTrue(pesquisaProdutoPage.nomeProduto().isDisplayed());
     	
+    	Thread.sleep(1000);    	
+    	
+    	pesquisaProdutoScript.finalizaCompra();
+    	
+    	Thread.sleep(1000);
+    	
+    	Assert.assertTrue(pesquisaProdutoPage.nomeProduto().isDisplayed());
+    	
+    	Thread.sleep(1000);
     	
     }
 

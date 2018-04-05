@@ -15,5 +15,11 @@ public class pesquisaProdutoScript extends pesquisaProdutoPage {
 		clicaComprar().click();
 		
 	}
+	
+	public static void finalizaPedido() {
+		
+		finalizaCompra().click();
+	
+	}
 
 }
