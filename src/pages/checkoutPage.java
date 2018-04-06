@@ -34,8 +34,6 @@ public class checkoutPage extends baseTest{
 	public static WebElement finalizaCompra() {
 		
 		return baseTest.getDriver().findElement(By.id("submit"));
-	}
-	
-	
+	}	
 
 }
