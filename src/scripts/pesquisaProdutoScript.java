@@ -16,10 +16,4 @@ public class pesquisaProdutoScript extends pesquisaProdutoPage {
 		
 	}
 	
-	public static void finalizaPedido() {
-		
-		finalizaCompra().click();
-	
-	}
-
 }

@@ -103,7 +103,7 @@ public class testHome extends baseTest {
 
     } 
     
-    @Test (priority = 4)
+    /*@Test (priority = 4)
     
     public void testLogOut() throws Exception {
     	
@@ -119,7 +119,7 @@ public class testHome extends baseTest {
     	
     	Assert.assertTrue(homeLogOutPage.cadastreSe().isDisplayed());
     	
-    }
+    }*/
     
     @Test (priority = 3)
     
@@ -147,17 +147,23 @@ public class testHome extends baseTest {
     	
     	Thread.sleep(1000);
     	
-    	Assert.assertTrue(pesquisaProdutoPage.nomeProduto().isDisplayed());
-    	
-    	Thread.sleep(1000);    	
-    	
-    	pesquisaProdutoScript.finalizaCompra();
+    	action.moveToElement(pesquisaProdutoScript.clicaCarrinho()).build().perform();
     	
     	Thread.sleep(1000);
     	
-    	Assert.assertTrue(pesquisaProdutoPage.nomeProduto().isDisplayed());
+    	action.moveToElement(pesquisaProdutoScript.produtoCarrinho()).build().perform();
     	
     	Thread.sleep(1000);
+    	
+    	Assert.assertTrue(pesquisaProdutoPage.produtoCarrinho().isDisplayed());
+    	
+    }
+    
+    @Test (priority = 4)
+    
+    public void testCheckOut() throws Exception {
+    	
+    	
     	
     }
 
