@@ -15,8 +15,27 @@ public class checkoutPage extends baseTest{
 	
 	public static WebElement produtoCarrinho() {
 		
-		return baseTest.getDriver().findElement(By.cssSelector(""));
+		return baseTest.getDriver().findElement(By.partialLinkText("VELA REDONDO BRIGITE BRANCO 50UNIDADES"));
 		
 	}
+	
+	public static WebElement continuaCheckOut() {
+		
+		return baseTest.getDriver().findElement(By.id("submit"));
+		
+	}
+	
+	public static WebElement escolheBoleto() {
+		
+		return baseTest.getDriver().findElement(By.id("paymentTypeBoleto"));
+		
+	}
+	
+	public static WebElement finalizaCompra() {
+		
+		return baseTest.getDriver().findElement(By.id("submit"));
+	}
+	
+	
 
 }
