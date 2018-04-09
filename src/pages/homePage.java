@@ -14,13 +14,13 @@ public class homePage extends baseTest {
 
     public static WebElement campoEmail() {
 
-        return baseTest.getDriver().findElement(By.cssSelector("#login-email"));
+        return baseTest.getDriver().findElement(By.id("login-email"));
 
     }
 
     public static WebElement campoSenha() {
 
-        return baseTest.getDriver().findElement(By.cssSelector("#login-senha"));
+        return baseTest.getDriver().findElement(By.id("login-senha"));
 
     }
 
@@ -50,13 +50,13 @@ public class homePage extends baseTest {
 
     public static WebElement listaCasamento() {
 
-        return baseTest.getDriver().findElement(By.className("listaMobile"));
+        return baseTest.getDriver().findElement(By.cssSelector("body > div.wrapper > header > div > div.buscaecarrinho.ng-scope > ul > li.listaMobile > a"));
 
     }
 
     public static WebElement nossasLojas() {
 
-        return baseTest.getDriver().findElement(By.className("nossasLojasMobile"));
+        return baseTest.getDriver().findElement(By.cssSelector("body > div.wrapper > header > div > div.buscaecarrinho.ng-scope > ul > li.nossasLojasMobile.nossasLojasnotMobile > a"));
 
     }
 
@@ -84,31 +84,31 @@ public class homePage extends baseTest {
 
     }
 
-    public static WebElement catCamaBanho(){
+    public static WebElement catOrganizadores(){
 
         return baseTest.getDriver().findElement(By.cssSelector("body > div.wrapper > header > div > nav > ul > li:nth-child(5) > h2 > a"));
 
     }
 
-    public static WebElement catIluminacao(){
+    public static WebElement catCamaBanho(){
 
         return baseTest.getDriver().findElement(By.cssSelector("body > div.wrapper > header > div > nav > ul > li:nth-child(6) > h2 > a"));
 
     }
 
-    public static WebElement catTapetesCortinas(){
+    public static WebElement catServicos(){
 
         return baseTest.getDriver().findElement(By.cssSelector("body > div.wrapper > header > div > nav > ul > li:nth-child(7) > h2 > a"));
 
     }
 
-    public static WebElement catSuperPreco(){
+    public static WebElement catIluminacao(){
 
         return baseTest.getDriver().findElement(By.cssSelector("body > div.wrapper > header > div > nav > ul > li:nth-child(8) > h2 > a"));
 
     }
 
-    public static WebElement catRenova(){
+    public static WebElement catNatal(){
 
         return baseTest.getDriver().findElement(By.cssSelector("body > div.wrapper > header > div > nav > ul > li:nth-child(9) > h2 > a"));
 

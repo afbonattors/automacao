@@ -65,35 +65,35 @@ public class testHome extends baseTest {
 
         Assert.assertTrue(catUtilDomesticas.contains(utildomesticas));
 
+        String catOrganizadores = homePage.catOrganizadores().getText();
+
+        String organizadores = "organizadores";
+
+        Assert.assertTrue(catOrganizadores.contains(organizadores));
+        
         String catCamaBanho = homePage.catCamaBanho().getText();
 
         String camabanho = "cama e banho";
 
         Assert.assertTrue(catCamaBanho.contains(camabanho));
 
+        String catServicos = homePage.catServicos().getText();
+
+        String servicos = "serviços";
+
+        Assert.assertTrue(catServicos.contains(servicos));
+
         String catIluminacao = homePage.catIluminacao().getText();
 
         String iluminacao = "iluminação";
 
         Assert.assertTrue(catIluminacao.contains(iluminacao));
+        
+        String catNatal = homePage.catNatal().getText();
 
-        String catTapetesCortinas = homePage.catTapetesCortinas().getText();
+        String natal = "natal";
 
-        String tapetescortinas = "tapetes e cortinas";
-
-        Assert.assertTrue(catTapetesCortinas.contains(tapetescortinas));
-
-        String catSuperPreco = homePage.catSuperPreco().getText();
-
-        String superpreco = "super preço";
-
-        Assert.assertTrue(catSuperPreco.contains(superpreco));
-
-        String catRenova = homePage.catRenova().getText();
-
-        String renova = "renova";
-
-        Assert.assertTrue(catRenova.contains(renova));
+        Assert.assertTrue(catNatal.contains(natal));
 
         String catMais = homePage.catMais().getText();
 

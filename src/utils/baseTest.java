@@ -12,7 +12,7 @@ public abstract class baseTest {
 
     public static WebDriver driver;
     public static String driverPath = "C:\\Selenium\\Driver\\chromedriver.exe";
-    public static String OEQA = "https://www.etna.com.br/";
+    public static String OEQA = "https://200.221.206.10/etna/";
 
     @BeforeClass
     public void setUp() {
