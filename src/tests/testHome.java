@@ -159,12 +159,12 @@ public class testHome extends baseTest {
     	
     }
     
-    @Test (priority = 4)
+    /*@Test (priority = 4)
     
     public void testCheckOut() throws Exception {
     	
     	
     	
-    }
+    }*/
 
 }
