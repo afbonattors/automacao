@@ -14,13 +14,13 @@ public class pesquisaProdutoPage {
 	
 	public static WebElement gridProdutos() {
 		
-		return baseTest.getDriver().findElement(By.cssSelector("#colmd9-search-percent > div.produtos > div.list_prod_result.clearfix.custom-result-list"));
+		return baseTest.getDriver().findElement(By.cssSelector("#colmd9-search-percent > div.produtos"));
 		
 	}
 	
 	public static WebElement produtoVelaRedondo() {
 		
-		return baseTest.getDriver().findElement(By.id("0030838"));
+		return baseTest.getDriver().findElement(By.id("0386327"));
 		
 	}
 	
