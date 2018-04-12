@@ -165,7 +165,9 @@ public class testHome extends baseTest {
     	
     	System.out.println("Teste avança carrinho");
     	
+    	pesquisaProdutoPage.clicaCarrinho();
     	
+    	pesquisaProdutoPage.finalizaCompa();
     	
     }
 
