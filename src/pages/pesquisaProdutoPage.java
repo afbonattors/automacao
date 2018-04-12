@@ -26,7 +26,7 @@ public class pesquisaProdutoPage {
 	
 	public static WebElement clicaComprar() {
 		
-		return baseTest.getDriver().findElement(By.cssSelector("#\\30 030838 > a.bt-c-ag"));
+		return baseTest.getDriver().findElement(By.cssSelector("#\\30 386327 > a.bt-c-ag"));
 		
 	}
 	
