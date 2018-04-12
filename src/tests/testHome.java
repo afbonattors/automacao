@@ -139,7 +139,7 @@ public class testHome extends baseTest {
     	
     	Thread.sleep(1000);
     	
-    	action.moveToElement(pesquisaProdutoPage.produtoVelaRedondo()).build().perform();
+    	action.moveToElement(pesquisaProdutoPage.produtoCapaAlmofadaPixeledVerde()).build().perform();
     	
     	Thread.sleep(1000);
     	
@@ -159,12 +159,14 @@ public class testHome extends baseTest {
     	
     }
     
-    /*@Test (priority = 4)
+    @Test (priority = 4)
     
     public void testCheckOut() throws Exception {
     	
+    	System.out.println("Teste avança carrinho");
     	
     	
-    }*/
+    	
+    }
 
 }

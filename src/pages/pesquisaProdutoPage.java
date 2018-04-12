@@ -18,7 +18,7 @@ public class pesquisaProdutoPage {
 		
 	}
 	
-	public static WebElement produtoVelaRedondo() {
+	public static WebElement produtoCapaAlmofadaPixeledVerde() {
 		
 		return baseTest.getDriver().findElement(By.id("0386327"));
 		
@@ -32,13 +32,13 @@ public class pesquisaProdutoPage {
 	
 	public static WebElement clicaCarrinho() {
 		
-		return baseTest.getDriver().findElement(By.cssSelector("body > div.wrapper > header > div > div.buscaecarrinho.ng-scope > ul > li.carrinho"));
+		return baseTest.getDriver().findElement(By.cssSelector("body > div.wrapper > header > div > div.buscaecarrinho.ng-scope > ul > li.carrinho > a"));
 		
 	}
 	
 	public static WebElement produtoCarrinho() {
 		
-		return baseTest.getDriver().findElement(By.cssSelector("#carrossel-carrinho > div > ul > li > a"));
+		return baseTest.getDriver().findElement(By.cssSelector("body > div.wrapper > header > div > div.buscaecarrinho.ng-scope > ul > li.carrinho > div > div.total > a.lkfinalizar"));
 		
 	}
 
