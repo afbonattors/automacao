@@ -167,7 +167,7 @@ public class testHome extends baseTest {
     	
     	pesquisaProdutoPage.clicaCarrinho();
     	
-    	pesquisaProdutoPage.finalizaCompa();
+    	pesquisaProdutoPage.finalizarCompra();
     	
     }
 

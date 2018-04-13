@@ -36,7 +36,7 @@ public class pesquisaProdutoPage {
 		
 	}
 	
-	public static WebElement finalizaCompa() {
+	public static WebElement finalizarCompra() {
 		
 		return baseTest.getDriver().findElement(By.cssSelector("body > div.wrapper > header > div > div.buscaecarrinho.ng-scope > ul > li.carrinho > div > div.total > a.lkfinalizar"));
 		

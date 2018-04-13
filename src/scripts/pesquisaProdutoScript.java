@@ -10,12 +10,23 @@ public class pesquisaProdutoScript extends pesquisaProdutoPage {
 		
 	}
 	
-	public static void compraVelaRedondo() {
+	public static void prodCapaAlmofadaPixeledVerde() {
+		
+		produtoCapaAlmofadaPixeledVerde().click();
+		
+	}
+	
+	public static void cliqueComprar() {
 		
 		clicaComprar().click();
 		
 	}
 	
-	public static void 
+	public static void finalizaCompra() {
+		
+		finalizarCompra().click();
+		
+	}	
+	
 	
 }
