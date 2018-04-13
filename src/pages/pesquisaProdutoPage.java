@@ -32,13 +32,19 @@ public class pesquisaProdutoPage {
 	
 	public static WebElement clicaCarrinho() {
 		
-		return baseTest.getDriver().findElement(By.cssSelector("body > div.wrapper > header > div > div.buscaecarrinho.ng-scope > ul > li.carrinho > a"));
+		return baseTest.getDriver().findElement(By.cssSelector("body > div.wrapper > header > div > div.buscaecarrinho.ng-scope > ul > li.carrinho"));
 		
 	}
 	
 	public static WebElement finalizarCompra() {
 		
 		return baseTest.getDriver().findElement(By.cssSelector("body > div.wrapper > header > div > div.buscaecarrinho.ng-scope > ul > li.carrinho > div > div.total > a.lkfinalizar"));
+		
+	}
+	
+	public static WebElement nomeProdutoCarrinho() {
+		
+		return baseTest.getDriver().findElement(By.cssSelector("body > div.wrapper.topocarrinho > div.containerwrap > section > ul.list-unstyled.itens-no-carrinho.cart-itens > li > div.colunas.col02 > h3 > a"));
 		
 	}
 

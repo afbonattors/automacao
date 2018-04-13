@@ -101,25 +101,7 @@ public class testHome extends baseTest {
 
         Assert.assertTrue(catMais.contains(mais));
 
-    } 
-    
-    /*@Test (priority = 4)
-    
-    public void testLogOut() throws Exception {
-    	
-    	System.out.println("Teste de Logout.");
-    	
-    	logOutScript.clicaMinhaConta();
-    	
-    	Thread.sleep(1000);
-    	
-    	logOutScript.clicaSair();
-    	
-    	Thread.sleep(1000);
-    	
-    	Assert.assertTrue(homeLogOutPage.cadastreSe().isDisplayed());
-    	
-    }*/
+    }
     
     @Test (priority = 3)
     
@@ -127,47 +109,39 @@ public class testHome extends baseTest {
     	
     	System.out.println("Teste adiciona produto ao carrinho.");
     	
-    	pesquisaProdutoScript.clicaLupa();
-    	
     	Thread.sleep(1000);
     	
-    	Assert.assertTrue(pesquisaProdutoPage.gridProdutos().isEnabled());
+    	pesquisaProdutoScript.clicaLupa();
     	
     	Thread.sleep(1000);
     	
     	Actions action = new Actions(getDriver());
     	
-    	Thread.sleep(1000);
-    	
     	action.moveToElement(pesquisaProdutoPage.produtoCapaAlmofadaPixeledVerde()).build().perform();
     	
     	Thread.sleep(1000);
     	
-    	pesquisaProdutoScript.compraVelaRedondo();
+    	pesquisaProdutoScript.prodCapaAlmofadaPixeledVerde();
     	
     	Thread.sleep(1000);
     	
-    	action.moveToElement(pesquisaProdutoScript.clicaCarrinho()).build().perform();
+    	pesquisaProdutoScript.cliqueComprar();
     	
     	Thread.sleep(1000);
     	
-    	action.moveToElement(pesquisaProdutoScript.produtoCarrinho()).build().perform();
+    	action.moveToElement(pesquisaProdutoPage.clicaCarrinho()).build().perform();
     	
     	Thread.sleep(1000);
     	
-    	Assert.assertTrue(pesquisaProdutoPage.produtoCarrinho().isDisplayed());
+    	pesquisaProdutoScript.finalizaCompra();
     	
-    }
-    
-    @Test (priority = 4)
-    
-    public void testCheckOut() throws Exception {
+    	Thread.sleep(1000);
     	
-    	System.out.println("Teste avança carrinho");
+    	String capaAlmofada = pesquisaProdutoPage.nomeProdutoCarrinho().getText();
     	
-    	pesquisaProdutoPage.clicaCarrinho();
+    	String Almofada = "CAPA ALMOFADA PIXELIZED VERDE 45X45CM";
     	
-    	pesquisaProdutoPage.finalizarCompra();
+    	Assert.assertTrue(capaAlmofada.contains(Almofada));
     	
     }
 
