@@ -4,10 +4,10 @@ import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import pages.homeLogOutPage;
 import pages.homePage;
 import pages.pesquisaProdutoPage;
 import scripts.homeScript;
+import scripts.logOutScript;
 import scripts.pesquisaProdutoScript;
 import utils.baseTest;
 
@@ -147,15 +147,15 @@ public class testHome extends baseTest {
     	
     	Thread.sleep(1000);
     	
-    	homePage.logoEtna();
+    	homeScript.clicaLogoEtna();
     	
     	Thread.sleep(1000);
     	
-    	homeLogOutPage.minhaConta();
+    	logOutScript.clicaMinhaConta();
     	
     	Thread.sleep(1000);
     	
-    	homeLogOutPage.logOut();
+    	logOutScript.clicaSair();
     	
     	Thread.sleep(1000);
     	

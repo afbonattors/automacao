@@ -28,4 +28,9 @@ public class homeScript extends homePage {
 
     }
     
+    public static void clicaLogoEtna() {
+    	
+    	logoEtna().click();
+    }
+    
 }
