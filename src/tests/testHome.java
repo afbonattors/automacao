@@ -161,7 +161,7 @@ public class testHome extends baseTest {
     	
     	String facaLogin = homePage.facaSeuLogin().getText();
     	
-    	String OlaFacaLogin = "olá, faça seu login";
+    	String OlaFacaLogin = "faça seu login";
     	
     	Assert.assertTrue(facaLogin.contains(OlaFacaLogin));
     	
