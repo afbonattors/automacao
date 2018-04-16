@@ -159,6 +159,14 @@ public class testHome extends baseTest {
     	
     	Thread.sleep(1000);
     	
+    	String facaLogin = homePage.facaSeuLogin().getText();
+    	
+    	String OlaFacaLogin = "Olá, faça seu login";
+    	
+    	Assert.assertTrue(facaLogin.contains(OlaFacaLogin));
+    	
+    	Thread.sleep(1000);
+    	
     }
     
 
