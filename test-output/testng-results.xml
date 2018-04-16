@@ -1,33 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+<testng-results skipped="0" failed="1" ignored="0" total="4" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="66508" started-at="2018-04-16T18:38:36Z" finished-at="2018-04-16T18:39:43Z">
+  <suite name="Default suite" duration-ms="60888" started-at="2018-04-16T18:48:11Z" finished-at="2018-04-16T18:49:12Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="66508" started-at="2018-04-16T18:38:36Z" finished-at="2018-04-16T18:39:43Z">
+    <test name="Default test" duration-ms="60888" started-at="2018-04-16T18:48:11Z" finished-at="2018-04-16T18:49:12Z">
       <class name="tests.testHome">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.testHome@14acaea5]" name="setUp" is-config="true" duration-ms="16266" started-at="2018-04-16T15:38:36Z" finished-at="2018-04-16T15:38:53Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.testHome@14acaea5]" name="setUp" is-config="true" duration-ms="15244" started-at="2018-04-16T15:48:11Z" finished-at="2018-04-16T15:48:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testLogin()[pri:1, instance:tests.testHome@14acaea5]" name="testLogin" duration-ms="10666" started-at="2018-04-16T15:38:53Z" finished-at="2018-04-16T15:39:03Z">
+        <test-method status="PASS" signature="testLogin()[pri:1, instance:tests.testHome@14acaea5]" name="testLogin" duration-ms="7347" started-at="2018-04-16T15:48:26Z" finished-at="2018-04-16T15:48:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogin -->
-        <test-method status="PASS" signature="testCategorias()[pri:2, instance:tests.testHome@14acaea5]" name="testCategorias" duration-ms="499" started-at="2018-04-16T15:39:03Z" finished-at="2018-04-16T15:39:04Z">
+        <test-method status="PASS" signature="testCategorias()[pri:2, instance:tests.testHome@14acaea5]" name="testCategorias" duration-ms="367" started-at="2018-04-16T15:48:33Z" finished-at="2018-04-16T15:48:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCategorias -->
-        <test-method status="PASS" signature="testAddCart()[pri:3, instance:tests.testHome@14acaea5]" name="testAddCart" duration-ms="20164" started-at="2018-04-16T15:39:04Z" finished-at="2018-04-16T15:39:24Z">
+        <test-method status="PASS" signature="testAddCart()[pri:3, instance:tests.testHome@14acaea5]" name="testAddCart" duration-ms="20267" started-at="2018-04-16T15:48:34Z" finished-at="2018-04-16T15:48:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAddCart -->
-        <test-method status="PASS" signature="testLogOut()[pri:4, instance:tests.testHome@14acaea5]" name="testLogOut" duration-ms="18051" started-at="2018-04-16T15:39:24Z" finished-at="2018-04-16T15:39:42Z">
+        <test-method status="FAIL" signature="testLogOut()[pri:4, instance:tests.testHome@14acaea5]" name="testLogOut" duration-ms="16763" started-at="2018-04-16T15:48:54Z" finished-at="2018-04-16T15:49:11Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]at org.testng.Assert.fail(Assert.java:96)at org.testng.Assert.failNotEquals(Assert.java:776)at org.testng.Assert.assertTrue(Assert.java:44)at org.testng.Assert.assertTrue(Assert.java:54)at tests.testHome.testLogOut(testHome.java:166)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.lang.reflect.Method.invoke(Unknown Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogOut -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.testHome@14acaea5]" name="tearDown" is-config="true" duration-ms="821" started-at="2018-04-16T15:39:42Z" finished-at="2018-04-16T15:39:43Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.testHome@14acaea5]" name="tearDown" is-config="true" duration-ms="871" started-at="2018-04-16T15:49:11Z" finished-at="2018-04-16T15:49:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
