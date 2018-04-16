@@ -1,21 +1,15 @@
 package tests;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.support.ui.ExpectedCondition;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.Wait;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import tests.testHome;
 import pages.homeLogOutPage;
 import pages.homePage;
 import pages.pesquisaProdutoPage;
-import scripts.logOutScript;
+import scripts.homeScript;
 import scripts.pesquisaProdutoScript;
 import utils.baseTest;
-import scripts.homeScript;
 
 public class testHome extends baseTest {
 
@@ -144,5 +138,28 @@ public class testHome extends baseTest {
     	Assert.assertTrue(capaAlmofada.contains(Almofada));
     	
     }
+    
+    @Test (priority = 4)
+    
+    public static void testLogOut() throws Exception {
+    	
+    	System.out.println("Teste logout.");
+    	
+    	Thread.sleep(1000);
+    	
+    	homePage.logoEtna();
+    	
+    	Thread.sleep(1000);
+    	
+    	homeLogOutPage.minhaConta();
+    	
+    	Thread.sleep(1000);
+    	
+    	homeLogOutPage.logOut();
+    	
+    	Thread.sleep(1000);
+    	
+    }
+    
 
 }
