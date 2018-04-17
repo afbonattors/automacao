@@ -167,7 +167,6 @@ public class testHome extends baseTest {
     	
     	Thread.sleep(1000);
     	
-    }
-    
+    }    
 
 }
