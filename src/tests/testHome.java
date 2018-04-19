@@ -139,7 +139,11 @@ public class testHome extends baseTest {
     	
     }
     
-    @Test (priority = 4)
+    /*@Test (priority = 4)
+    
+    public static void testMeusDados*/
+    
+    @Test (priority = 5)
     
     public static void testLogOut() throws Exception {
     	
