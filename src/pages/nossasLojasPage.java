@@ -96,6 +96,83 @@ public class nossasLojasPage extends baseTest {
 		
 	}
 	
+	public static WebElement divConfiraNossasLojas() {
+		
+		return baseTest.getDriver().findElement(By.cssSelector("body > div.wrapper > div.containerwrap > section > div > div"));
+		
+	}
+	
+	public static WebElement divLojaBerrini() {
+		
+		return baseTest.getDriver().findElement(By.cssSelector("#todas > ul > li:nth-child(1)"));
+		
+	}
+	
+	public static WebElement divLojaMarginalTiete() {
+		
+		return baseTest.getDriver().findElement(By.cssSelector("#todas > ul > li:nth-child(2)"));
+		
+	}
+	
+	public static WebElement divLojaRiodeJaneiro() {
+		
+		return baseTest.getDriver().findElement(By.cssSelector("#todas > ul > li:nth-child(3)"));
+	}
+	
+	public static WebElement divCampinas() {
+		
+		return baseTest.getDriver().findElement(By.cssSelector("#todas > ul > li:nth-child(4)"));
+	}
+	
+	public static WebElement divSalvador() {
+		
+		return baseTest.getDriver().findElement(By.cssSelector("#todas > ul > li:nth-child(5)"));
+	}
+	
+	public static WebElement divNatal() {
+		
+		return baseTest.getDriver().findElement(By.cssSelector("#todas > ul > li:nth-child(6)"));
+	}
+	
+	public static WebElement divBrasilia() {
+		
+		return baseTest.getDriver().findElement(By.cssSelector("#todas > ul > li:nth-child(7)"));
+	}
+	
+	public static WebElement divGranjaViana() {
+		
+		return baseTest.getDriver().findElement(By.cssSelector("#todas > ul > li:nth-child(8)"));
+	}
+	
+	public static WebElement divBeloHorizonte() {
+		
+		return baseTest.getDriver().findElement(By.cssSelector("#todas > ul > li:nth-child(9)"));
+	}
+	
+	public static WebElement divCampoGrande() {
+		
+		return baseTest.getDriver().findElement(By.cssSelector("#todas > ul > li:nth-child(10)"));
+	}
+	
+	public static WebElement divFortaleza() {
+		
+		return baseTest.getDriver().findElement(By.cssSelector("#todas > ul > li:nth-child(11)"));
+	}
+	
+	public static WebElement divRecife() {
+		
+		return baseTest.getDriver().findElement(By.cssSelector("#todas > ul > li:nth-child(12)"));
+	}
+	
+	public static WebElement divRibeiraoPreto() {
+		
+		return baseTest.getDriver().findElement(By.cssSelector("#todas > ul > li:nth-child(13)"));
+	}
+	
+	public static WebElement divSorocaba() {
+		
+		return baseTest.getDriver().findElement(By.cssSelector("#todas > ul > li:nth-child(14)"));
+	}
 	
 
 }
