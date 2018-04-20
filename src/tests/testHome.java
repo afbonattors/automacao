@@ -8,6 +8,7 @@ import pages.homePage;
 import pages.pesquisaProdutoPage;
 import scripts.homeScript;
 import scripts.logOutScript;
+import scripts.nossasLojasScript;
 import scripts.pesquisaProdutoScript;
 import utils.baseTest;
 
@@ -172,6 +173,8 @@ public class testHome extends baseTest {
     @Test (priority = 5)
     
     public static void testNossasLojas() throws Exception {
+    	
+    	nossasLojasScript.acessaNossasLojas();
     	
     	
     	
