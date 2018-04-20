@@ -195,5 +195,23 @@ public class meusDadosPage extends baseTest {
 		return baseTest.getDriver().findElement(By.id("CONFIRMPASSWORD"));
 		
 	}
+	
+	public static WebElement checkboxNewsletter() {
+		
+		return baseTest.getDriver().findElement(By.id("news"));
+		
+	}
+	
+	public static WebElement checkboxSMS() {
+		
+		return baseTest.getDriver().findElement(By.id("sms"));
+		
+	}
+	
+	public static WebElement btnCadastrar() {
+		
+		return baseTest.getDriver().findElement(By.id("btcadastro"));
+		
+	}
 
 }
