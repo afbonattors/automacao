@@ -174,9 +174,7 @@ public class testHome extends baseTest {
     
     public static void testNossasLojas() throws Exception {
     	
-    	nossasLojasScript.acessaNossasLojas();
-    	
-    	
+    	nossasLojasScript.acessaNossasLojas();    	
     	
     }
 
