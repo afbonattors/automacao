@@ -19,56 +19,56 @@ public class meusDadosPage extends baseTest {
 		
 	}
 	
-	public static WebElement PessoaFisica() {
+	public static WebElement btnPessoaFisica() {
 		
 		return baseTest.getDriver().findElement(By.id("pessoafisica"));
 		
 	}
 	
-	public static WebElement PessoaJuridica() {
+	public static WebElement btnPessoaJuridica() {
 		
 		return baseTest.getDriver().findElement(By.id("pessoajuridica"));
 		
 	}
 	
-	public static WebElement campoNome() {
+	public static WebElement txtfieldCampoNome() {
 		
 		
 		return baseTest.getDriver().findElement(By.id("firstName"));
 		
 	}
 	
-	public static WebElement campoSobreNome() {
+	public static WebElement txtfieldCampoSobreNome() {
 		
 		return baseTest.getDriver().findElement(By.id("lastName"));
 		
 	}
 	
-	public static WebElement campoApelido() {
+	public static WebElement txtfieldCampoApelido() {
 		
 		return baseTest.getDriver().findElement(By.id("nickname"));
 		
 	}
 	
-	public static WebElement campoCPF() {
+	public static WebElement txtfieldCampoCPF() {
 		
 		return baseTest.getDriver().findElement(By.id("cpf"));
 		
 	}
 	
-	public static WebElement campoDataNascimento() {
+	public static WebElement txtfieldCampoDataNascimento() {
 		
 		return baseTest.getDriver().findElement(By.id("dateOfBirth"));
 		
 	}
 	
-	public static WebElement generoMasculino() {
+	public static WebElement btnGeneroMasculino() {
 		
 		return baseTest.getDriver().findElement(By.cssSelector("#formRegister > div.conteudo.right.col-md-9 > div.texto.dados-form > div.form.right > div.pessoafisica.act > div:nth-child(6) > div > div > label:nth-child(1)"));
 		
 	}
 	
-	public static WebElement generoFeminino() {
+	public static WebElement btnGeneroFeminino() {
 		
 		return baseTest.getDriver().findElement(By.cssSelector("#formRegister > div.conteudo.right.col-md-9 > div.texto.dados-form > div.form.right > div.pessoafisica.act > div:nth-child(6) > div > div > label.btn.active"));
 		
@@ -80,88 +80,88 @@ public class meusDadosPage extends baseTest {
 		
 	}
 	
-	public static WebElement cep() {
+	public static WebElement txtfieldCep() {
 		
 		return baseTest.getDriver().findElement(By.id("cep"));
 		
 	}
 	
-	public static WebElement tipoEndereco() {
+	public static WebElement txtfieldTipoEndereco() {
 		
 		return baseTest.getDriver().findElement(By.id("Residencial"));
 		
 	}
 	
-	public static WebElement tipoLocal() {
+	public static WebElement txtfieldTipoLocal() {
 		
 		return baseTest.getDriver().findElement(By.id("prefix"));
 		
 	}
 	
-	public static WebElement endereco() {
+	public static WebElement txtfieldEndereco() {
 		
 		return baseTest.getDriver().findElement(By.id("endereco"));
 		
 	}
 	
-	public static WebElement numero() {
+	public static WebElement txtfieldNumero() {
 		
 		return baseTest.getDriver().findElement(By.id("numero"));
 		
 	}
 	
-	public static WebElement complemento() {
+	public static WebElement txtfieldComplemento() {
 		
 		return baseTest.getDriver().findElement(By.id("complemento"));
 		
 	}
 	
-	public static WebElement bairro() {
+	public static WebElement txtfieldBairro() {
 		
 		return baseTest.getDriver().findElement(By.id("bairro"));
 		
 	}
 	
-	public static WebElement cidade() {
+	public static WebElement txtfieldCidade() {
 		
 		return baseTest.getDriver().findElement(By.id("cidade"));
 		
 	}
 	
-	public static WebElement estado() {
+	public static WebElement txtfieldEstado() {
 		
 		return baseTest.getDriver().findElement(By.id("estado"));
 		
 	}
 	
-	public static WebElement pontoReferencia() {
+	public static WebElement txtfieldPontoReferencia() {
 		
 		return baseTest.getDriver().findElement(By.id("referencia"));
 	}
 	
-	public static WebElement telefone1() {
+	public static WebElement txtfieldTelefone1() {
 		
 		return baseTest.getDriver().findElement(By.id("TelephoneNumber1"));
 	}
 	
-	public static WebElement telefone2() {
+	public static WebElement txtfieldTelefone2() {
 		
 		return baseTest.getDriver().findElement(By.id("TelephoneNumber2"));
 		
 	}
 	
-	public static WebElement celular1() {
+	public static WebElement txtfieldCelular1() {
 		
 		return baseTest.getDriver().findElement(By.id("cellPhone1"));
 	}
 	
-	public static WebElement celular2() {
+	public static WebElement txtfieldCelular2() {
 		
 		return baseTest.getDriver().findElement(By.id("cellPhone2"));
 		
 	}
 	
-	public static WebElement enderecoEntrega() {
+	public static WebElement txtfieldEnderecoEntrega() {
 		
 		return baseTest.getDriver().findElement(By.cssSelector("#formRegister > div.conteudo.right.col-md-9 > div.texto.dados-form > div.form.right > div:nth-child(20)"));
 		
@@ -172,9 +172,27 @@ public class meusDadosPage extends baseTest {
 		return baseTest.getDriver().findElement(By.id("mesmoendereco"));
 	}
 	
-	public static WebElement dadosDeAcesso() {
+	public static WebElement divDadosDeAcesso() {
 		
 		return baseTest.getDriver().findElement(By.cssSelector("#formRegister > div.conteudo.right.col-md-9 > div.texto.dados-form > div.form.right > div:nth-child(23)"));
+		
+	}
+	
+	public static WebElement txtfieldCampoLogin() {
+		
+		return baseTest.getDriver().findElement(By.id("login"));
+		
+	}
+	
+	public static WebElement txtfieldcampoSenha() {
+		
+		return baseTest.getDriver().findElement(By.id("password"));
+		
+	}
+	
+	public static WebElement txtfieldConfirmaSenha() {
+		
+		return baseTest.getDriver().findElement(By.id("CONFIRMPASSWORD"));
 		
 	}
 
