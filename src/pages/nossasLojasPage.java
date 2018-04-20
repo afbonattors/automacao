@@ -172,7 +172,6 @@ public class nossasLojasPage extends baseTest {
 	public static WebElement divSorocaba() {
 		
 		return baseTest.getDriver().findElement(By.cssSelector("#todas > ul > li:nth-child(14)"));
-	}
-	
+	}	
 
 }
