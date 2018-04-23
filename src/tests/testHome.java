@@ -102,7 +102,7 @@ public class testHome extends baseTest {
     
     @Test (priority = 3)
     
-    public void testAddCart() throws Exception {
+    public void testCarrinho() throws Exception {
     	
     	System.out.println("Teste adiciona produto ao carrinho.");
     	
@@ -139,6 +139,18 @@ public class testHome extends baseTest {
     	String Almofada = "CAPA ALMOFADA PIXELIZED VERDE 45X45CM";
     	
     	Assert.assertTrue(capaAlmofada.contains(Almofada));
+    	
+    	pesquisaProdutoScript.limpaCarrinho();
+    	
+    	Thread.sleep(3000);
+    	
+    	pesquisaProdutoScript.clicabtnExcluir();
+    	
+    	Thread.sleep(3000);
+    	
+    	action.moveToElement(homePage.iconeCarrinho()).build().perform();
+    	
+    	Assert.assertTrue(pesquisaProdutoPage.labelNaoHaProduto().isEnabled());    	
     	
     }
     

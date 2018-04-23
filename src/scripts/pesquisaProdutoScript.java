@@ -26,7 +26,19 @@ public class pesquisaProdutoScript extends pesquisaProdutoPage {
 		
 		finalizarCompra().click();
 		
-	}	
+	}
+	
+	public static void limpaCarrinho() {
+		
+		excluiProdutoCarrinho().click();
+		
+	}
+	
+	public static void clicabtnExcluir() {
+		
+		btnExcluirProdutoCarrinho().click();
+		
+	}
 	
 	
 }

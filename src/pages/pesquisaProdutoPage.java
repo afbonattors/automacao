@@ -47,5 +47,23 @@ public class pesquisaProdutoPage {
 		return baseTest.getDriver().findElement(By.cssSelector("body > div.wrapper.topocarrinho > div.containerwrap > section > ul.list-unstyled.itens-no-carrinho.cart-itens > li > div.colunas.col02 > h3 > a"));
 		
 	}
+	
+	public static WebElement excluiProdutoCarrinho() {
+		
+		return baseTest.getDriver().findElement(By.cssSelector("body > div.wrapper.topocarrinho > div.containerwrap > section > ul.list-unstyled.itens-no-carrinho.cart-itens > li > div.colunas.col06 > a"));
+		
+	}
+	
+	public static WebElement btnExcluirProdutoCarrinho() {
+		
+		return baseTest.getDriver().findElement(By.partialLinkText("Excluir"));
+		
+	}
+	
+	public static WebElement labelNaoHaProduto() {
+		
+		return baseTest.getDriver().findElement(By.cssSelector("body > div.wrapper > header > div > div.buscaecarrinho.ng-scope > ul > li.carrinho > div > p"));
+		
+	}
 
 }
