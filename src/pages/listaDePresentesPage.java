@@ -34,6 +34,7 @@ public class listaDePresentesPage extends baseTest {
 	public static WebElement btnPesquisar() {
 		
 		return baseTest.getDriver().findElement(By.id("pesquisar-lista"));
+		
 	}
 	
 	public static WebElement divAcessaListaPresente() {
@@ -51,11 +52,30 @@ public class listaDePresentesPage extends baseTest {
 	public static WebElement txtfieldSenha() {
 		
 		return baseTest.getDriver().findElement(By.id("password"));
+		
 	}
 	
 	public static WebElement btnEntrar() {
 		
 		return baseTest.getDriver().findElement(By.id("acessar-lista"));
+		
+	}
+	
+	public static WebElement divDuvidas() {
+		
+		return baseTest.getDriver().findElement(By.cssSelector("body > div.wrapper > div.containerwrap > section > div > div.lista.left"));
+		
+	}
+	
+	public static WebElement divNovaArea() {
+		
+		return baseTest.getDriver().findElement(By.cssSelector("body > div.wrapper > div.containerwrap > section > div > div.column.right > div.area"));
+		
+	}
+	
+	public static WebElement divAdicionadosRecentemente() {
+		
+		return baseTest.getDriver().findElement(By.id("weddingListProducts"));
 		
 	}
 
