@@ -33,4 +33,10 @@ public class homeScript extends homePage {
     	logoEtna().click();
     }
     
+    public static void clicaListaPresente() {
+    	
+    	listaCasamento().click();
+    	
+    }
+    
 }

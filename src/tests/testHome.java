@@ -180,7 +180,7 @@ public class testHome extends baseTest {
     	
     	nossasLojasScript.acessaNossasLojas();
     	
-    	Thread.sleep(3000);
+    	Thread.sleep(1000);
     	
     	Assert.assertTrue(nossasLojasPage.divNossasLojas().isDisplayed());
     	
@@ -244,9 +244,11 @@ public class testHome extends baseTest {
     
     @Test (priority = 6)
     
-    public static void testListaPresente() {
+    public static void testListaPresente() throws Exception {
     	
-    	homeScript.clicaLogoEtna();
+    	homeScript.clicaListaPresente();
+    	
+    	Thread.sleep(1000);
     	
     	Assert.assertTrue(listaDePresentesPage.divEncontreListaPresentes().isDisplayed());
     	
