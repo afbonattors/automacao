@@ -5,6 +5,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import pages.homePage;
+import pages.listaDePresentesPage;
 import pages.nossasLojasPage;
 import pages.pesquisaProdutoPage;
 import scripts.homeScript;
@@ -175,6 +176,8 @@ public class testHome extends baseTest {
     
     public static void testNossasLojas() throws Exception {
     	
+    	System.out.println("Teste nossas lojas");
+    	
     	nossasLojasScript.acessaNossasLojas();
     	
     	Thread.sleep(3000);
@@ -243,7 +246,29 @@ public class testHome extends baseTest {
     
     public static void testListaPresente() {
     	
+    	homeScript.clicaLogoEtna();
     	
+    	Assert.assertTrue(listaDePresentesPage.divEncontreListaPresentes().isDisplayed());
+    	
+    	Assert.assertTrue(listaDePresentesPage.txtfieldNomeLista().isDisplayed());
+    	
+    	Assert.assertTrue(listaDePresentesPage.txtDataEvento().isDisplayed());
+    	
+    	Assert.assertTrue(listaDePresentesPage.txtNumeroLista().isDisplayed());
+    	
+    	Assert.assertTrue(listaDePresentesPage.btnPesquisar().isEnabled());
+    	
+    	Assert.assertTrue(listaDePresentesPage.txtfieldEmail().isDisplayed());
+    	
+    	Assert.assertTrue(listaDePresentesPage.txtfieldSenha().isDisplayed());
+    	
+    	Assert.assertTrue(listaDePresentesPage.btnEntrar().isDisplayed());
+    	
+    	Assert.assertTrue(listaDePresentesPage.divDuvidas().isDisplayed());
+    	
+    	Assert.assertTrue(listaDePresentesPage.divNovaArea().isDisplayed());
+    	
+    	Assert.assertTrue(listaDePresentesPage.divAdicionadosRecentemente().isDisplayed()); 	
     	
     }
 
