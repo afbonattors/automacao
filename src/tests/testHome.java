@@ -5,6 +5,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import pages.homePage;
+import pages.nossasLojasPage;
 import pages.pesquisaProdutoPage;
 import scripts.homeScript;
 import scripts.logOutScript;
@@ -174,7 +175,67 @@ public class testHome extends baseTest {
     
     public static void testNossasLojas() throws Exception {
     	
-    	nossasLojasScript.acessaNossasLojas();    	
+    	nossasLojasScript.acessaNossasLojas();
+    	
+    	Thread.sleep(3000);
+    	
+    	Assert.assertTrue(nossasLojasPage.divNossasLojas().isDisplayed());
+    	
+    	Assert.assertTrue(nossasLojasPage.lojaBerrini().isDisplayed());
+    	
+    	Assert.assertTrue(nossasLojasPage.lojaMarginal().isDisplayed());
+    	
+    	Assert.assertTrue(nossasLojasPage.lojaRiodeJaneiro().isDisplayed());
+    	
+    	Assert.assertTrue(nossasLojasPage.lojaCampinas().isDisplayed());
+    	
+    	Assert.assertTrue(nossasLojasPage.lojaSalvador().isDisplayed());
+    	
+    	Assert.assertTrue(nossasLojasPage.lojaNatal().isDisplayed());
+    	
+    	Assert.assertTrue(nossasLojasPage.lojaBrasilia().isDisplayed());
+    	
+    	Assert.assertTrue(nossasLojasPage.lojaGranjaViana().isDisplayed());
+    	
+    	Assert.assertTrue(nossasLojasPage.lojaBeloHorizonte().isDisplayed());
+    	
+    	Assert.assertTrue(nossasLojasPage.lojaCampoGrande().isDisplayed());
+    	
+    	Assert.assertTrue(nossasLojasPage.lojaFortaleza().isDisplayed());
+    	
+    	Assert.assertTrue(nossasLojasPage.lojaRecife().isDisplayed());
+    	
+    	Assert.assertTrue(nossasLojasPage.lojaRibeiraoPreto().isDisplayed());
+    	
+    	Assert.assertTrue(nossasLojasPage.lojaSocoraba().isDisplayed());
+    	
+    	Assert.assertTrue(nossasLojasPage.divLojaBerrini().isDisplayed());
+    	
+    	Assert.assertTrue(nossasLojasPage.divLojaMarginalTiete().isDisplayed());
+    	
+    	Assert.assertTrue(nossasLojasPage.divLojaRiodeJaneiro().isDisplayed());
+    	
+    	Assert.assertTrue(nossasLojasPage.divCampinas().isDisplayed());
+    	
+    	Assert.assertTrue(nossasLojasPage.divSalvador().isDisplayed());
+    	
+    	Assert.assertTrue(nossasLojasPage.divNatal().isDisplayed());
+    	
+    	Assert.assertTrue(nossasLojasPage.divBrasilia().isDisplayed());
+    	
+    	Assert.assertTrue(nossasLojasPage.divGranjaViana().isDisplayed());
+    	
+    	Assert.assertTrue(nossasLojasPage.divBeloHorizonte().isDisplayed());
+    	
+    	Assert.assertTrue(nossasLojasPage.divCampoGrande().isDisplayed());
+    	
+    	Assert.assertTrue(nossasLojasPage.divFortaleza().isDisplayed());
+    	
+    	Assert.assertTrue(nossasLojasPage.divRecife().isDisplayed());
+
+    	Assert.assertTrue(nossasLojasPage.divRibeiraoPreto().isDisplayed());
+    	
+    	Assert.assertTrue(nossasLojasPage.divSorocaba().isDisplayed()); 
     	
     }
 
