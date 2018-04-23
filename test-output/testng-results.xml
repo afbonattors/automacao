@@ -2,36 +2,36 @@
 <testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="81688" started-at="2018-04-20T20:31:05Z" finished-at="2018-04-20T20:32:27Z">
+  <suite name="Default suite" duration-ms="106334" started-at="2018-04-23T12:41:46Z" finished-at="2018-04-23T12:43:33Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="81688" started-at="2018-04-20T20:31:05Z" finished-at="2018-04-20T20:32:27Z">
+    <test name="Default test" duration-ms="106334" started-at="2018-04-23T12:41:46Z" finished-at="2018-04-23T12:43:33Z">
       <class name="tests.testHome">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.testHome@14acaea5]" name="setUp" is-config="true" duration-ms="23617" started-at="2018-04-20T17:31:05Z" finished-at="2018-04-20T17:31:29Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.testHome@14acaea5]" name="setUp" is-config="true" duration-ms="43646" started-at="2018-04-23T09:41:46Z" finished-at="2018-04-23T09:42:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testLogin()[pri:1, instance:tests.testHome@14acaea5]" name="testLogin" duration-ms="7371" started-at="2018-04-20T17:31:29Z" finished-at="2018-04-20T17:31:36Z">
+        <test-method status="PASS" signature="testLogin()[pri:1, instance:tests.testHome@14acaea5]" name="testLogin" duration-ms="9693" started-at="2018-04-23T09:42:30Z" finished-at="2018-04-23T09:42:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogin -->
-        <test-method status="PASS" signature="testCategorias()[pri:2, instance:tests.testHome@14acaea5]" name="testCategorias" duration-ms="335" started-at="2018-04-20T17:31:36Z" finished-at="2018-04-20T17:31:36Z">
+        <test-method status="PASS" signature="testCategorias()[pri:2, instance:tests.testHome@14acaea5]" name="testCategorias" duration-ms="317" started-at="2018-04-23T09:42:40Z" finished-at="2018-04-23T09:42:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCategorias -->
-        <test-method status="PASS" signature="testAddCart()[pri:3, instance:tests.testHome@14acaea5]" name="testAddCart" duration-ms="26359" started-at="2018-04-20T17:31:36Z" finished-at="2018-04-20T17:32:03Z">
+        <test-method status="PASS" signature="testAddCart()[pri:3, instance:tests.testHome@14acaea5]" name="testAddCart" duration-ms="26698" started-at="2018-04-23T09:42:40Z" finished-at="2018-04-23T09:43:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAddCart -->
-        <test-method status="PASS" signature="testLogOut()[pri:4, instance:tests.testHome@14acaea5]" name="testLogOut" duration-ms="17962" started-at="2018-04-20T17:32:03Z" finished-at="2018-04-20T17:32:21Z">
+        <test-method status="PASS" signature="testLogOut()[pri:4, instance:tests.testHome@14acaea5]" name="testLogOut" duration-ms="15985" started-at="2018-04-23T09:43:07Z" finished-at="2018-04-23T09:43:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogOut -->
-        <test-method status="PASS" signature="testNossasLojas()[pri:5, instance:tests.testHome@14acaea5]" name="testNossasLojas" duration-ms="4515" started-at="2018-04-20T17:32:21Z" finished-at="2018-04-20T17:32:25Z">
+        <test-method status="PASS" signature="testNossasLojas()[pri:5, instance:tests.testHome@14acaea5]" name="testNossasLojas" duration-ms="8660" started-at="2018-04-23T09:43:23Z" finished-at="2018-04-23T09:43:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testNossasLojas -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.testHome@14acaea5]" name="tearDown" is-config="true" duration-ms="1472" started-at="2018-04-20T17:32:25Z" finished-at="2018-04-20T17:32:27Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.testHome@14acaea5]" name="tearDown" is-config="true" duration-ms="1300" started-at="2018-04-23T09:43:31Z" finished-at="2018-04-23T09:43:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
