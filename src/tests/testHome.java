@@ -238,5 +238,13 @@ public class testHome extends baseTest {
     	Assert.assertTrue(nossasLojasPage.divSorocaba().isDisplayed()); 
     	
     }
+    
+    @Test (priority = 6)
+    
+    public static void testListaPresente() {
+    	
+    	
+    	
+    }
 
 }
