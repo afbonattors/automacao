@@ -4,6 +4,7 @@ import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import pages.homeLogOutPage;
 import pages.homePage;
 import pages.listaDePresentesPage;
 import pages.nossasLojasPage;
