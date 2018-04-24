@@ -5,12 +5,9 @@
     <classes>
       <class name="tests.testHome">
         <methods>
-          <include name="testListaPresente"/>
           <include name="testLogOut"/>
           <include name="setUp"/>
-          <include name="testNossasLojas"/>
           <include name="tearDown"/>
-          <include name="testCarrinho"/>
         </methods>
       </class> <!-- tests.testHome -->
     </classes>

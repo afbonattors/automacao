@@ -16,33 +16,11 @@ import utils.baseTest;
 
 public class testHome extends baseTest {
 
-    @Test (priority= 1)
+    @Test (priority = 1)
 
-    public void testLogin() {
+    public void testHomePage() {
     	
-    	System.out.println("Teste de login.");
-
-        homeScript.clicaFacaLogin();
-
-        homeScript.digitaEmail();
-
-        homeScript.digitaSenha();
-
-        homeScript.clicaEntrar();
-
-        String usuarioLogado = homePage.usuarioLogado().getText();
-
-        String usuarioLogadoCorreto = "afbonatto";
-        
-        Assert.assertTrue(usuarioLogado.contains(usuarioLogadoCorreto));
-        
-        } 
-
-    @Test (priority = 2)
-
-    public void testCategorias() {
-    	
-    	System.out.println("Teste de validação das categorias.");
+    	System.out.println("Teste homepage.");
 
         String catMoveis = homePage.catMoveis().getText();
 
@@ -100,87 +78,39 @@ public class testHome extends baseTest {
 
     }
     
+    @Test (priority = 2)
+    
+    public static void testListaPresente() throws Exception {
+    	
+    	homeScript.clicaListaPresente();
+    	
+    	Thread.sleep(1000);
+    	
+    	Assert.assertTrue(listaDePresentesPage.divEncontreListaPresentes().isDisplayed());
+    	
+    	Assert.assertTrue(listaDePresentesPage.txtfieldNomeLista().isDisplayed());
+    	
+    	Assert.assertTrue(listaDePresentesPage.txtDataEvento().isDisplayed());
+    	
+    	Assert.assertTrue(listaDePresentesPage.txtNumeroLista().isDisplayed());
+    	
+    	Assert.assertTrue(listaDePresentesPage.btnPesquisar().isEnabled());
+    	
+    	Assert.assertTrue(listaDePresentesPage.txtfieldEmail().isDisplayed());
+    	
+    	Assert.assertTrue(listaDePresentesPage.txtfieldSenha().isDisplayed());
+    	
+    	Assert.assertTrue(listaDePresentesPage.btnEntrar().isDisplayed());
+    	
+    	Assert.assertTrue(listaDePresentesPage.divDuvidas().isDisplayed());
+    	
+    	Assert.assertTrue(listaDePresentesPage.divNovaArea().isDisplayed());
+    	
+    	Assert.assertTrue(listaDePresentesPage.divAdicionadosRecentemente().isDisplayed()); 	
+    	
+    }
+    
     @Test (priority = 3)
-    
-    public void testCarrinho() throws Exception {
-    	
-    	System.out.println("Teste adiciona produto ao carrinho.");
-    	
-    	Thread.sleep(1000);
-    	
-    	pesquisaProdutoScript.clicaLupa();
-    	
-    	Thread.sleep(1000);
-    	
-    	Actions action = new Actions(getDriver());
-    	
-    	action.moveToElement(pesquisaProdutoPage.produtoCapaAlmofadaPixeledVerde()).build().perform();
-    	
-    	Thread.sleep(1000);
-    	
-    	pesquisaProdutoScript.prodCapaAlmofadaPixeledVerde();
-    	
-    	Thread.sleep(1000);
-    	
-    	pesquisaProdutoScript.cliqueComprar();
-    	
-    	Thread.sleep(1000);
-    	
-    	action.moveToElement(pesquisaProdutoPage.clicaCarrinho()).build().perform();
-    	
-    	Thread.sleep(1000);
-    	
-    	pesquisaProdutoScript.finalizaCompra();
-    	
-    	Thread.sleep(1000);
-    	
-    	String capaAlmofada = pesquisaProdutoPage.nomeProdutoCarrinho().getText();
-    	
-    	String Almofada = "CAPA ALMOFADA PIXELIZED VERDE 45X45CM";
-    	
-    	Assert.assertTrue(capaAlmofada.contains(Almofada));
-    	
-    	pesquisaProdutoScript.limpaCarrinhoCompras();
-    	
-    	Thread.sleep(3000);
-    	
-    	action.moveToElement(homePage.iconeCarrinho()).build().perform();
-    	
-    	Assert.assertTrue(pesquisaProdutoPage.labelNaoHaProduto().isEnabled());    	
-    	
-    }
-    
-    @Test (priority = 4)
-    
-    public static void testLogOut() throws Exception {
-    	
-    	System.out.println("Teste logout.");
-    	
-    	Thread.sleep(1000);
-    	
-    	homeScript.clicaLogoEtna();
-    	
-    	Thread.sleep(1000);
-    	
-    	logOutScript.clicaMinhaConta();
-    	
-    	Thread.sleep(1000);
-    	
-    	logOutScript.clicaSair();
-    	
-    	Thread.sleep(1000);
-    	
-    	String facaLogin = homePage.facaSeuLogin().getText();
-    	
-    	String OlaFacaLogin = "faça seu login";
-    	
-    	Assert.assertTrue(facaLogin.contains(OlaFacaLogin));
-    	
-    	Thread.sleep(1000);
-    	
-    }
-    
-    @Test (priority = 5)
     
     public static void testNossasLojas() throws Exception {
     	
@@ -250,35 +180,101 @@ public class testHome extends baseTest {
     	
     }
     
-    @Test (priority = 6)
-    
-    public static void testListaPresente() throws Exception {
+    @Test (priority= 4)
+
+    public void testLogin() {
     	
-    	homeScript.clicaListaPresente();
+    	System.out.println("Teste de login.");
+
+        homeScript.clicaFacaLogin();
+
+        homeScript.digitaEmail();
+
+        homeScript.digitaSenha();
+
+        homeScript.clicaEntrar();
+
+        String usuarioLogado = homePage.usuarioLogado().getText();
+
+        String usuarioLogadoCorreto = "afbonatto";
+        
+        Assert.assertTrue(usuarioLogado.contains(usuarioLogadoCorreto));
+        
+    }
+    
+    @Test (priority = 5)
+    
+    public void testCarrinho() throws Exception {
+    	
+    	System.out.println("Teste adiciona produto ao carrinho.");
     	
     	Thread.sleep(1000);
     	
-    	Assert.assertTrue(listaDePresentesPage.divEncontreListaPresentes().isDisplayed());
+    	pesquisaProdutoScript.clicaLupa();
     	
-    	Assert.assertTrue(listaDePresentesPage.txtfieldNomeLista().isDisplayed());
+    	Thread.sleep(1000);
     	
-    	Assert.assertTrue(listaDePresentesPage.txtDataEvento().isDisplayed());
+    	Actions action = new Actions(getDriver());
     	
-    	Assert.assertTrue(listaDePresentesPage.txtNumeroLista().isDisplayed());
+    	action.moveToElement(pesquisaProdutoPage.produtoCapaAlmofadaPixeledVerde()).build().perform();
     	
-    	Assert.assertTrue(listaDePresentesPage.btnPesquisar().isEnabled());
+    	Thread.sleep(1000);
     	
-    	Assert.assertTrue(listaDePresentesPage.txtfieldEmail().isDisplayed());
+    	pesquisaProdutoScript.prodCapaAlmofadaPixeledVerde();
     	
-    	Assert.assertTrue(listaDePresentesPage.txtfieldSenha().isDisplayed());
+    	Thread.sleep(1000);
     	
-    	Assert.assertTrue(listaDePresentesPage.btnEntrar().isDisplayed());
+    	pesquisaProdutoScript.cliqueComprar();
     	
-    	Assert.assertTrue(listaDePresentesPage.divDuvidas().isDisplayed());
+    	Thread.sleep(1000);
     	
-    	Assert.assertTrue(listaDePresentesPage.divNovaArea().isDisplayed());
+    	action.moveToElement(pesquisaProdutoPage.clicaCarrinho()).build().perform();
     	
-    	Assert.assertTrue(listaDePresentesPage.divAdicionadosRecentemente().isDisplayed()); 	
+    	Thread.sleep(1000);
+    	
+    	pesquisaProdutoScript.finalizaCompra();
+    	
+    	Thread.sleep(1000);
+    	
+    	String capaAlmofada = pesquisaProdutoPage.nomeProdutoCarrinho().getText();
+    	
+    	String Almofada = "CAPA ALMOFADA PIXELIZED VERDE 45X45CM";
+    	
+    	Assert.assertTrue(capaAlmofada.contains(Almofada));
+    	
+    	pesquisaProdutoScript.limpaCarrinhoCompras();
+    	
+    	Thread.sleep(1000);
+    	
+    	action.moveToElement(homePage.iconeCarrinho()).build().perform();
+    	
+    	Assert.assertTrue(pesquisaProdutoPage.labelNaoHaProduto().isEnabled());    	
+    	
+    }
+    
+    @Test (priority = 20)
+    
+    public static void testLogOut() throws Exception {
+    	
+    	System.out.println("Teste logout.");
+    	
+    	Thread.sleep(1000);
+    	
+    	logOutScript.clicaMinhaConta();
+    	
+    	Thread.sleep(1000);
+    	
+    	logOutScript.clicaSair();
+    	
+    	Thread.sleep(1000);
+    	
+    	String facaLogin = homePage.facaSeuLogin().getText();
+    	
+    	String OlaFacaLogin = "faça seu login";
+    	
+    	Assert.assertTrue(facaLogin.contains(OlaFacaLogin));
+    	
+    	Thread.sleep(1000);
     	
     }
 
