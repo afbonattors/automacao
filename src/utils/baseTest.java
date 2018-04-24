@@ -33,7 +33,9 @@ public abstract class baseTest {
             driver.manage().timeouts().implicitlyWait(5, TimeUnit.MINUTES);
 
         }
+        
         return driver;
+        
     }
 
     @AfterClass
