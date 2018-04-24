@@ -182,7 +182,7 @@ public class testHome extends baseTest {
     
     @Test (priority= 4)
 
-    public void testLogin() {
+    public void testLogin() throws Exception {
     	
     	System.out.println("Teste de login.");
     	
