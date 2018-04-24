@@ -5,9 +5,9 @@
     <classes>
       <class name="tests.testHome">
         <methods>
+          <include name="testLogOut"/>
           <include name="setUp"/>
           <include name="tearDown"/>
-          <include name="testCarrinho"/>
         </methods>
       </class> <!-- tests.testHome -->
     </classes>

@@ -185,8 +185,12 @@ public class testHome extends baseTest {
     public void testLogin() {
     	
     	System.out.println("Teste de login.");
+    	
+    	homeScript.clicaLogoEtna();
 
         homeScript.clicaFacaLogin();
+        
+        Thread.sleep(1000);
 
         homeScript.digitaEmail();
 
@@ -248,6 +252,8 @@ public class testHome extends baseTest {
     	
     	action.moveToElement(homePage.iconeCarrinho()).build().perform();
     	
+    	Thread.sleep(1000);
+    	
     	Assert.assertTrue(pesquisaProdutoPage.labelNaoHaProduto().isEnabled());    	
     	
     }
@@ -257,6 +263,8 @@ public class testHome extends baseTest {
     public static void testLogOut() throws Exception {
     	
     	System.out.println("Teste logout.");
+    	
+    	homeScript.clicaLogoEtna();
     	
     	Thread.sleep(1000);
     	
