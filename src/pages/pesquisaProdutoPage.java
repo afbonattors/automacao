@@ -48,15 +48,15 @@ public class pesquisaProdutoPage {
 		
 	}
 	
-	public static WebElement excluiProdutoCarrinho() {
+	public static WebElement limpaCarrinho() {
 		
-		return baseTest.getDriver().findElement(By.cssSelector("body > div.wrapper.topocarrinho > div.containerwrap > section > ul.list-unstyled.itens-no-carrinho.cart-itens > li > div.colunas.col06 > a"));
+		return baseTest.getDriver().findElement(By.cssSelector("#removeAllItems > input.btlimpar"));
 		
 	}
 	
 	public static WebElement btnExcluirProdutoCarrinho() {
 		
-		return baseTest.getDriver().findElement(By.partialLinkText("Excluir"));
+		return baseTest.getDriver().findElement(By.xpath("//*[@id=\"removeci\"]"));
 		
 	}
 	

@@ -140,11 +140,7 @@ public class testHome extends baseTest {
     	
     	Assert.assertTrue(capaAlmofada.contains(Almofada));
     	
-    	pesquisaProdutoScript.limpaCarrinho();
-    	
-    	Thread.sleep(3000);
-    	
-    	pesquisaProdutoScript.clicabtnExcluir();
+    	pesquisaProdutoScript.limpaCarrinhoCompras();
     	
     	Thread.sleep(3000);
     	

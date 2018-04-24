@@ -28,9 +28,9 @@ public class pesquisaProdutoScript extends pesquisaProdutoPage {
 		
 	}
 	
-	public static void limpaCarrinho() {
+	public static void limpaCarrinhoCompras() {
 		
-		excluiProdutoCarrinho().click();
+		limpaCarrinho().click();
 		
 	}
 	
