@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>C:\Users\ObjectEdge\AppData\Local\Temp\testng-eclipse-1517825562\testng-customsuite.xml</span>
+                    <span>C:\Users\ObjectEdge\AppData\Local\Temp\testng-eclipse-165685466\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -102,7 +102,7 @@
                     <div class="method-list-content failed suite-Default_suite">
                       <span>
                         <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="tests.testHome" hash-for-method="testLogOut">testLogOut</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="tests.testHome" hash-for-method="testCarrinho">testCarrinho</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Default_suite -->
@@ -116,17 +116,17 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="tests.testHome" hash-for-method="testCarrinho">testCarrinho</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="tests.testHome" hash-for-method="testHomePage">testHomePage</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="tests.testHome" hash-for-method="testListaPresente">testListaPresente</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="tests.testHome" hash-for-method="testLogOut">testLogOut</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -159,18 +159,20 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="testLogOut">
-                  </a> <!-- testLogOut -->
-                  <span class="method-name">testLogOut</span>
-                  <div class="stack-trace">org.openqa.selenium.WebDriverException: unknown error: Element &lt;a href=&quot;javascript:void(0)&quot; title=&quot;Minha conta&quot; alt=&quot;Minha conta&quot; class=&quot;btdropdown boxlogadoDesktop&quot; data-toggle=&quot;modal&quot; data-target=&quot;#boxlogado&quot; data-backdrop=&quot;false&quot;&gt;...&lt;/a&gt; is not clickable at point (1366, 56). Other element would receive the click: &lt;p class=&quot;itenscarrinho&quot; style=&quot;margin-bottom: 0px&quot;&gt;...&lt;/p&gt;
+                  <a name="testCarrinho">
+                  </a> <!-- testCarrinho -->
+                  <span class="method-name">testCarrinho</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;body &gt; div.wrapper &gt; header &gt; div &gt; div.buscaecarrinho.ng-scope &gt; ul &gt; li.carrinho &gt; div &gt; div.total &gt; a.lkfinalizar&quot;}
   (Session info: chrome=66.0.3359.117)
   (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:33:08.638Z&apos;
 System info: host: &apos;DESKTOP-QE6D7HJ&apos;, ip: &apos;172.16.4.189&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544315 (730aa6a5fdba15..., userDataDir: C:\Users\OBJECT~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.117, webStorageEnabled: true}
-Session ID: 947aa521d1a3f2d65000f648aaaab8f3
+Session ID: 6911c547f6678b17b997048f2fedd7d7
+*** Element info: {Using=css selector, value=body &gt; div.wrapper &gt; header &gt; div &gt; div.buscaecarrinho.ng-scope &gt; ul &gt; li.carrinho &gt; div &gt; div.total &gt; a.lkfinalizar}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -183,10 +185,13 @@ Session ID: 947aa521d1a3f2d65000f648aaaab8f3
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
-	at scripts.logOutScript.clicaMinhaConta(logOutScript.java:9)
-	at tests.testHome.testLogOut(testHome.java:263)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:413)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)
+	at pages.pesquisaProdutoPage.finalizarCompra(pesquisaProdutoPage.java:41)
+	at scripts.pesquisaProdutoScript.finalizaCompra(pesquisaProdutoScript.java:27)
+	at tests.testHome.testCarrinho(testHome.java:235)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -226,13 +231,6 @@ Session ID: 947aa521d1a3f2d65000f648aaaab8f3
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="testCarrinho">
-                  </a> <!-- testCarrinho -->
-                  <span class="method-name">testCarrinho</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
                   <a name="testHomePage">
                   </a> <!-- testHomePage -->
                   <span class="method-name">testHomePage</span>
@@ -243,6 +241,13 @@ Session ID: 947aa521d1a3f2d65000f648aaaab8f3
                   <a name="testListaPresente">
                   </a> <!-- testListaPresente -->
                   <span class="method-name">testListaPresente</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLogOut">
+                  </a> <!-- testLogOut -->
+                  <span class="method-name">testLogOut</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -264,7 +269,7 @@ Session ID: 947aa521d1a3f2d65000f648aaaab8f3
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\ObjectEdge\AppData\Local\Temp\testng-eclipse-1517825562\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\ObjectEdge\AppData\Local\Temp\testng-eclipse-165685466\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -317,32 +322,32 @@ data.addRows(6);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'testCarrinho')
 data.setCell(0, 2, 'tests.testHome')
-data.setCell(0, 3, 40373);
+data.setCell(0, 3, 313143);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'testListaPresente')
+data.setCell(1, 1, 'testLogOut')
 data.setCell(1, 2, 'tests.testHome')
-data.setCell(1, 3, 12782);
+data.setCell(1, 3, 10046);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'testNossasLojas')
 data.setCell(2, 2, 'tests.testHome')
-data.setCell(2, 3, 12768);
+data.setCell(2, 3, 8599);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'testLogin')
+data.setCell(3, 1, 'testListaPresente')
 data.setCell(3, 2, 'tests.testHome')
-data.setCell(3, 3, 10634);
+data.setCell(3, 3, 5637);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'testLogOut')
+data.setCell(4, 1, 'testLogin')
 data.setCell(4, 2, 'tests.testHome')
-data.setCell(4, 3, 1160);
+data.setCell(4, 3, 4885);
 data.setCell(5, 0, 5)
 data.setCell(5, 1, 'testHomePage')
 data.setCell(5, 2, 'tests.testHome')
-data.setCell(5, 3, 499);
+data.setCell(5, 3, 454);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <span class="suite-total-time">Total running time: 5 minutes</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -375,33 +380,33 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">testHomePage</span>
-                <span class="method-start">40981 ms</span>
+                <span class="method-start">17628 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testListaPresente</span>
-                <span class="method-start">41484 ms</span>
+                <span class="method-start">18085 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testNossasLojas</span>
-                <span class="method-start">54268 ms</span>
+                <span class="method-start">23722 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testLogin</span>
-                <span class="method-start">67038 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">testCarrinho</span>
-                <span class="method-start">77688 ms</span>
+                <span class="method-start">32322 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
+                <span class="method-name">testCarrinho</span>
+                <span class="method-start">37208 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
                 <span class="method-name">testLogOut</span>
-                <span class="method-start">118063 ms</span>
+                <span class="method-start">350356 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">119232 ms</span>
+                <span class="method-start">360403 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
