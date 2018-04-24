@@ -19,7 +19,7 @@ public class testHome extends baseTest {
 
     @Test (priority = 1)
 
-    public void testHomePage() {
+    public static void testHomePage() {
     	
     	System.out.println("Teste homepage.");
 
@@ -258,6 +258,14 @@ public class testHome extends baseTest {
     	Assert.assertTrue(pesquisaProdutoPage.labelNaoHaProduto().isEnabled());    	
     	
     }
+    
+    /*@Test (priority = 6)
+    
+    public static void testCarrinho() throws Exception {
+    	
+    	
+    	
+    }*/
     
     @Test (priority = 20)
     
