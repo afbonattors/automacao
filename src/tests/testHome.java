@@ -76,6 +76,8 @@ public class testHome extends baseTest {
         String mais = "mais";
 
         Assert.assertTrue(catMais.contains(mais));
+        
+        System.out.print("\n"+ catMoveis.contains(mais));
 
     }
     
