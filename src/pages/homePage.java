@@ -5,43 +5,19 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
 public class homePage extends baseTest {
-
-    public static WebElement facaSeuLogin() {
-
-        return baseTest.getDriver().findElement(By.cssSelector("#formHeaderNav2 > p.cadastreseDesktop > a.facaLogin"));
-
-    }
-
-    public static WebElement campoEmail() {
-
-        return baseTest.getDriver().findElement(By.id("login-email"));
-
-    }
-
-    public static WebElement campoSenha() {
-
-        return baseTest.getDriver().findElement(By.id("login-senha"));
-
-    }
-
-    public static WebElement botaoEntrar() {
-
-        return baseTest.getDriver().findElement(By.cssSelector("#formHeaderNav2 > div.row.lkbt > input.btn.btn-primary.btn-sm.right"));
-
-    }
-
-    public static WebElement usuarioLogado() {
-
-        return baseTest.getDriver().findElement(By.cssSelector("body > div.wrapper > header > div > div.buscaecarrinho.ng-scope > ul > li.logar.logado.act.botoes-top > p"));
-
-    }
+	
+	public static WebElement headerHome() {
+		
+		return baseTest.getDriver().findElement(By.cssSelector("body > div.wrapper > header"));
+		
+	}
 
     public static WebElement logoEtna() {
 
         return baseTest.getDriver().findElement(By.cssSelector("body > div.wrapper > header > div > div.brand.sprite-logo > a"));
 
     }
-
+    
     public static WebElement textfiledBusca() {
 
         return baseTest.getDriver().findElement(By.id("search"));
@@ -63,6 +39,47 @@ public class homePage extends baseTest {
     public static WebElement iconeCarrinho() {
 
         return baseTest.getDriver().findElement(By.className("carrinho"));
+
+    }
+    
+    public static WebElement divLogin() {
+    	
+    	return baseTest.getDriver().findElement(By.xpath("//*[@id=\"boxlogin\"]"));
+    }
+    
+    public static WebElement facaSeuLogin() {
+
+        return baseTest.getDriver().findElement(By.cssSelector("#formHeaderNav2 > p.cadastreseDesktop > a.facaLogin"));
+
+    }
+    
+    public static WebElement btnFaceBook() {
+    	
+    	return baseTest.getDriver().findElement(By.id("facebook-login-button"));
+    	
+    }
+
+    public static WebElement txtfieldEmail() {
+
+        return baseTest.getDriver().findElement(By.id("login-email"));
+
+    }
+
+    public static WebElement txtfieldSenha() {
+
+        return baseTest.getDriver().findElement(By.id("login-senha"));
+
+    }
+
+    public static WebElement btnEntrar() {
+
+        return baseTest.getDriver().findElement(By.cssSelector("#formHeaderNav2 > div.row.lkbt > input.btn.btn-primary.btn-sm.right"));
+
+    }
+
+    public static WebElement usuarioLogado() {
+
+        return baseTest.getDriver().findElement(By.cssSelector("body > div.wrapper > header > div > div.buscaecarrinho.ng-scope > ul > li.logar.logado.act.botoes-top > p"));
 
     }
 

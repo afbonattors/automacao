@@ -18,9 +18,35 @@ public class testHome extends baseTest {
 
     @Test (priority = 1)
 
-    public static void testHomePage() {
+    public static void testHomePage() throws Exception {
     	
     	System.out.println("\nTeste homepage.");
+    	
+    	Assert.assertTrue(homePage.headerHome().isDisplayed());
+    	
+    	Assert.assertTrue(homePage.logoEtna().isDisplayed());
+    	
+    	Assert.assertTrue(homePage.textfiledBusca().isDisplayed());
+    	
+    	Assert.assertTrue(homePage.listaCasamento().isDisplayed());
+    	
+    	Assert.assertTrue(homePage.nossasLojas().isDisplayed());
+    	
+    	Assert.assertTrue(homePage.iconeCarrinho().isDisplayed());  	
+    	
+    	homeScript.clicaFacaLogin();
+    	
+    	Thread.sleep(1000);
+    	
+    	Assert.assertTrue(homePage.divLogin().isDisplayed());
+    	
+    	Thread.sleep(3000);
+    	
+    	Assert.assertTrue(homePage.btnFaceBook().isDisplayed());
+    	
+    	Assert.assertTrue(homePage.txtfieldEmail().isDisplayed());
+    	
+    	Assert.assertTrue(homePage.txtfieldSenha().isDisplayed());
 
         String catMoveis = homePage.catMoveis().getText();
 

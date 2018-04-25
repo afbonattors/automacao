@@ -12,19 +12,19 @@ public class homeScript extends homePage {
 
     public static void digitaEmail() {
 
-        campoEmail().sendKeys("afbonatto@gmail.com");
+    	txtfieldEmail().sendKeys("afbonatto@gmail.com");
 
     }
 
     public static void digitaSenha() {
 
-        campoSenha().sendKeys("201089");
+    	txtfieldSenha().sendKeys("201089");
 
     }
 
     public static void clicaEntrar() {
 
-        botaoEntrar().click();
+        btnEntrar().click();
 
     }
     
