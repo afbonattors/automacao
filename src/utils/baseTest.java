@@ -17,13 +17,15 @@ public abstract class baseTest {
     @BeforeClass
     public void setUp() {
     	
-    	System.out.println("\nAbre navegador.\n");
+    	System.out.println("\nInicia driver.\n");
 
         getDriver().navigate().to(OEQA);
 
     }
 
     public static WebDriver getDriver() {
+    	
+    	System.out.println("\nAbre navegador.\n");
 
 
         if (driver == null) {
@@ -43,7 +45,7 @@ public abstract class baseTest {
     @AfterClass
     public static void tearDown(){
     	
-    	System.out.println("\nFecha navegador.\n");
+    	System.out.println("\nFecha driver.\n");
 
         getDriver().quit();
 
