@@ -7,8 +7,6 @@
         <methods>
           <include name="testLogOut"/>
           <include name="setUp"/>
-          <include name="testLogin"/>
-          <include name="testNossasLojas"/>
           <include name="tearDown"/>
           <include name="testCarrinho"/>
         </methods>
