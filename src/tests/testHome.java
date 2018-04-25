@@ -101,6 +101,24 @@ public class testHome extends baseTest {
         String mais = "mais";
 
         Assert.assertTrue(catMais.contains(mais));
+        
+        Assert.assertTrue(homePage.footerHome().isDisplayed());
+        
+        Assert.assertTrue(homePage.divSaibaMaisFooter().isDisplayed());
+        
+        Assert.assertTrue(homePage.divCentralAtendimentoFooter().isDisplayed());
+        
+        Assert.assertTrue(homePage.divServicosFooter().isDisplayed());
+        
+        Assert.assertTrue(homePage.divSegurancaPrivacidadeFooter().isDisplayed());
+        
+        Assert.assertTrue(homePage.divTelefonesFooter().isDisplayed());
+        
+        Assert.assertTrue(homePage.divTelevendasFooter().isDisplayed());
+        
+        Assert.assertTrue(homePage.divAcompanheEtnaFooter().isDisplayed());
+        
+        Assert.assertTrue(homePage.divTextoRodape().isDisplayed());
 
     }
     
