@@ -16,6 +16,8 @@ public abstract class baseTest {
 
     @BeforeClass
     public void setUp() {
+    	
+    	System.out.println("Abre navegador");
 
         getDriver().navigate().to(OEQA);
 
@@ -40,6 +42,8 @@ public abstract class baseTest {
 
     @AfterClass
     public static void tearDown(){
+    	
+    	System.out.println("Fecha navegador.");
 
         getDriver().quit();
 
