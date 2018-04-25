@@ -24,8 +24,6 @@ public abstract class baseTest {
     }
 
     public static WebDriver getDriver() {
-    	
-    	System.out.println("\nAbre navegador.\n");
 
         if (driver == null) {
 
