@@ -20,7 +20,7 @@ public class testHome extends baseTest {
 
     public static void testHomePage() {
     	
-    	System.out.println("\nTeste homepage.\n");
+    	System.out.println("\nTeste homepage.");
 
         String catMoveis = homePage.catMoveis().getText();
 
@@ -82,7 +82,7 @@ public class testHome extends baseTest {
     
     public static void testListaPresente() throws Exception {
     	
-    	System.out.println("\nTeste Home Lista de Presentes.\n");
+    	System.out.println("\nTeste Home Lista de Presentes.");
     	
     	homeScript.clicaListaPresente();
     	
@@ -116,7 +116,7 @@ public class testHome extends baseTest {
     
     public static void testNossasLojas() throws Exception {
     	
-    	System.out.println("\nTeste nossas lojas\n");
+    	System.out.println("\nTeste nossas lojas.");
     	
     	nossasLojasScript.acessaNossasLojas();
     	
@@ -186,7 +186,7 @@ public class testHome extends baseTest {
 
     public void testLogin() throws Exception {
     	
-    	System.out.println("\nTeste de login.\n");
+    	System.out.println("\nTeste de login.");
     	
     	homeScript.clicaLogoEtna();
 
@@ -212,7 +212,7 @@ public class testHome extends baseTest {
     
     public void testCarrinho() throws Exception {
     	
-    	System.out.println("\nTeste adiciona produto ao carrinho.\n");
+    	System.out.println("\nTeste adiciona produto ao carrinho.");
     	
     	Thread.sleep(1000);
     	
