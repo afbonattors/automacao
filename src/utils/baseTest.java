@@ -26,6 +26,8 @@ public abstract class baseTest {
     public static WebDriver getDriver() {
 
         if (driver == null) {
+        	
+        	System.out.println("\nAbre navegador.\n");
 
             ChromeOptions chromeOptions = new ChromeOptions();
             chromeOptions.addArguments("--start-maximized", "--disable-notifications");
@@ -36,8 +38,6 @@ public abstract class baseTest {
         }
         
         return driver;
-        
-        System.out.println("\nAbre navegador.\n");
         
     }
 
