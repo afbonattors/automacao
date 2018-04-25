@@ -7,7 +7,9 @@
         <methods>
           <include name="testLogOut"/>
           <include name="setUp"/>
+          <include name="testLogin"/>
           <include name="tearDown"/>
+          <include name="testCarrinho"/>
         </methods>
       </class> <!-- tests.testHome -->
     </classes>

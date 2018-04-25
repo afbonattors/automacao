@@ -24,9 +24,6 @@ public abstract class baseTest {
     }
 
     public static WebDriver getDriver() {
-    	
-    	System.out.println("\nAbre navegador.\n");
-
 
         if (driver == null) {
 
@@ -39,6 +36,8 @@ public abstract class baseTest {
         }
         
         return driver;
+        
+        System.out.println("\nAbre navegador.\n");
         
     }
 
