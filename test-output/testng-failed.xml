@@ -5,8 +5,6 @@
     <classes>
       <class name="tests.testHome">
         <methods>
-          <include name="testHomePage"/>
-          <include name="testListaPresente"/>
           <include name="testLogOut"/>
           <include name="setUp"/>
           <include name="testLogin"/>

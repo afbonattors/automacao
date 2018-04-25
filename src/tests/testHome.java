@@ -272,7 +272,7 @@ public class testHome extends baseTest {
     
     public static void testLogOut() throws Exception {
     	
-    	System.out.println("\nTeste logout.\n");
+    	System.out.println("\nTeste logout.");
     	
     	homeScript.clicaLogoEtna();
     	
