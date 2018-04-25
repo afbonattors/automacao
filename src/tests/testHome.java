@@ -4,7 +4,6 @@ import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import pages.homeLogOutPage;
 import pages.homePage;
 import pages.listaDePresentesPage;
 import pages.nossasLojasPage;
@@ -21,7 +20,7 @@ public class testHome extends baseTest {
 
     public static void testHomePage() {
     	
-    	System.out.println("Teste homepage.");
+    	System.out.println("\nTeste homepage.\n");
 
         String catMoveis = homePage.catMoveis().getText();
 
@@ -83,6 +82,8 @@ public class testHome extends baseTest {
     
     public static void testListaPresente() throws Exception {
     	
+    	System.out.println("\nTeste Home Lista de Presentes.\n");
+    	
     	homeScript.clicaListaPresente();
     	
     	Thread.sleep(1000);
@@ -115,7 +116,7 @@ public class testHome extends baseTest {
     
     public static void testNossasLojas() throws Exception {
     	
-    	System.out.println("Teste nossas lojas");
+    	System.out.println("\nTeste nossas lojas\n");
     	
     	nossasLojasScript.acessaNossasLojas();
     	
@@ -185,7 +186,7 @@ public class testHome extends baseTest {
 
     public void testLogin() throws Exception {
     	
-    	System.out.println("Teste de login.");
+    	System.out.println("\nTeste de login.\n");
     	
     	homeScript.clicaLogoEtna();
 
@@ -211,7 +212,7 @@ public class testHome extends baseTest {
     
     public void testCarrinho() throws Exception {
     	
-    	System.out.println("Teste adiciona produto ao carrinho.");
+    	System.out.println("\nTeste adiciona produto ao carrinho.\n");
     	
     	Thread.sleep(1000);
     	
@@ -271,7 +272,7 @@ public class testHome extends baseTest {
     
     public static void testLogOut() throws Exception {
     	
-    	System.out.println("Teste logout.");
+    	System.out.println("\nTeste logout.\n");
     	
     	homeScript.clicaLogoEtna();
     	
