@@ -4,7 +4,7 @@ import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import pages.headerPage;
+import pages.headerClass;
 import pages.homePage;
 import pages.listaDePresentesPage;
 import pages.nossasLojasPage;
@@ -24,17 +24,17 @@ public class testHome extends baseTest {
     	
     	System.out.println("\nTeste homepage.");
     	
-    	Assert.assertTrue(headerPage.headerHome().isDisplayed());
+    	Assert.assertTrue(headerClass.headerHome().isDisplayed());
     	
-    	Assert.assertTrue(headerPage.logoEtna().isDisplayed());
+    	Assert.assertTrue(headerClass.logoEtna().isDisplayed());
     	
-    	Assert.assertTrue(headerPage.textfiledBusca().isDisplayed());
+    	Assert.assertTrue(headerClass.textfiledBusca().isDisplayed());
     	
-    	Assert.assertTrue(headerPage.listaCasamento().isDisplayed());
+    	Assert.assertTrue(headerClass.listaCasamento().isDisplayed());
     	
-    	Assert.assertTrue(headerPage.nossasLojas().isDisplayed());
+    	Assert.assertTrue(headerClass.nossasLojas().isDisplayed());
     	
-    	Assert.assertTrue(headerPage.iconeCarrinho().isDisplayed());  	
+    	Assert.assertTrue(headerClass.iconeCarrinho().isDisplayed());  	
     	
     	homeScript.clicaFacaLogin();
     	
@@ -134,17 +134,17 @@ public class testHome extends baseTest {
     	
     	Thread.sleep(1000);
     	
-    	Assert.assertTrue(headerPage.headerHome().isDisplayed());
+    	Assert.assertTrue(headerClass.headerHome().isDisplayed());
     	
-    	Assert.assertTrue(headerPage.logoEtna().isDisplayed());
+    	Assert.assertTrue(headerClass.logoEtna().isDisplayed());
     	
-    	Assert.assertTrue(headerPage.textfiledBusca().isDisplayed());
+    	Assert.assertTrue(headerClass.textfiledBusca().isDisplayed());
     	
-    	Assert.assertTrue(headerPage.listaCasamento().isDisplayed());
+    	Assert.assertTrue(headerClass.listaCasamento().isDisplayed());
     	
-    	Assert.assertTrue(headerPage.nossasLojas().isDisplayed());
+    	Assert.assertTrue(headerClass.nossasLojas().isDisplayed());
     	
-    	Assert.assertTrue(headerPage.iconeCarrinho().isDisplayed());  	
+    	Assert.assertTrue(headerClass.iconeCarrinho().isDisplayed());  	
     	
     	Assert.assertTrue(listaDePresentesPage.divEncontreListaPresentes().isDisplayed());
     	
@@ -198,17 +198,17 @@ public class testHome extends baseTest {
     	
     	Thread.sleep(1000);
     	
-    	Assert.assertTrue(headerPage.headerHome().isDisplayed());
+    	Assert.assertTrue(headerClass.headerHome().isDisplayed());
     	
-    	Assert.assertTrue(headerPage.logoEtna().isDisplayed());
+    	Assert.assertTrue(headerClass.logoEtna().isDisplayed());
     	
-    	Assert.assertTrue(headerPage.textfiledBusca().isDisplayed());
+    	Assert.assertTrue(headerClass.textfiledBusca().isDisplayed());
     	
-    	Assert.assertTrue(headerPage.listaCasamento().isDisplayed());
+    	Assert.assertTrue(headerClass.listaCasamento().isDisplayed());
     	
-    	Assert.assertTrue(headerPage.nossasLojas().isDisplayed());
+    	Assert.assertTrue(headerClass.nossasLojas().isDisplayed());
     	
-    	Assert.assertTrue(headerPage.iconeCarrinho().isDisplayed());
+    	Assert.assertTrue(headerClass.iconeCarrinho().isDisplayed());
     	
     	Assert.assertTrue(nossasLojasPage.divNossasLojas().isDisplayed());
     	
@@ -296,17 +296,17 @@ public class testHome extends baseTest {
     	
     	headerScript.clicaLogoEtna();
     	
-    	Assert.assertTrue(headerPage.headerHome().isDisplayed());
+    	Assert.assertTrue(headerClass.headerHome().isDisplayed());
     	
-    	Assert.assertTrue(headerPage.logoEtna().isDisplayed());
+    	Assert.assertTrue(headerClass.logoEtna().isDisplayed());
     	
-    	Assert.assertTrue(headerPage.textfiledBusca().isDisplayed());
+    	Assert.assertTrue(headerClass.textfiledBusca().isDisplayed());
     	
-    	Assert.assertTrue(headerPage.listaCasamento().isDisplayed());
+    	Assert.assertTrue(headerClass.listaCasamento().isDisplayed());
     	
-    	Assert.assertTrue(headerPage.nossasLojas().isDisplayed());
+    	Assert.assertTrue(headerClass.nossasLojas().isDisplayed());
     	
-    	Assert.assertTrue(headerPage.iconeCarrinho().isDisplayed());
+    	Assert.assertTrue(headerClass.iconeCarrinho().isDisplayed());
 
         homeScript.clicaFacaLogin();
         
@@ -334,17 +334,17 @@ public class testHome extends baseTest {
     	
     	Thread.sleep(1000);
     	
-    	Assert.assertTrue(headerPage.headerHome().isDisplayed());
+    	Assert.assertTrue(headerClass.headerHome().isDisplayed());
     	
-    	Assert.assertTrue(headerPage.logoEtna().isDisplayed());
+    	Assert.assertTrue(headerClass.logoEtna().isDisplayed());
     	
-    	Assert.assertTrue(headerPage.textfiledBusca().isDisplayed());
+    	Assert.assertTrue(headerClass.textfiledBusca().isDisplayed());
     	
-    	Assert.assertTrue(headerPage.listaCasamento().isDisplayed());
+    	Assert.assertTrue(headerClass.listaCasamento().isDisplayed());
     	
-    	Assert.assertTrue(headerPage.nossasLojas().isDisplayed());
+    	Assert.assertTrue(headerClass.nossasLojas().isDisplayed());
     	
-    	Assert.assertTrue(headerPage.iconeCarrinho().isDisplayed());
+    	Assert.assertTrue(headerClass.iconeCarrinho().isDisplayed());
     	
     	pesquisaProdutoScript.clicaLupa();
     	
@@ -382,7 +382,7 @@ public class testHome extends baseTest {
     	
     	Thread.sleep(1000);
     	
-    	action.moveToElement(headerPage.iconeCarrinho()).build().perform();
+    	action.moveToElement(headerClass.iconeCarrinho()).build().perform();
     	
     	Thread.sleep(1000);
     	
@@ -408,17 +408,17 @@ public class testHome extends baseTest {
     	
     	Thread.sleep(1000);
     	
-    	Assert.assertTrue(headerPage.headerHome().isDisplayed());
+    	Assert.assertTrue(headerClass.headerHome().isDisplayed());
     	
-    	Assert.assertTrue(headerPage.logoEtna().isDisplayed());
+    	Assert.assertTrue(headerClass.logoEtna().isDisplayed());
     	
-    	Assert.assertTrue(headerPage.textfiledBusca().isDisplayed());
+    	Assert.assertTrue(headerClass.textfiledBusca().isDisplayed());
     	
-    	Assert.assertTrue(headerPage.listaCasamento().isDisplayed());
+    	Assert.assertTrue(headerClass.listaCasamento().isDisplayed());
     	
-    	Assert.assertTrue(headerPage.nossasLojas().isDisplayed());
+    	Assert.assertTrue(headerClass.nossasLojas().isDisplayed());
     	
-    	Assert.assertTrue(headerPage.iconeCarrinho().isDisplayed());
+    	Assert.assertTrue(headerClass.iconeCarrinho().isDisplayed());
     	
     	logOutScript.clicaMinhaConta();
     	

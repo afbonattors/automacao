@@ -5,7 +5,7 @@ import org.openqa.selenium.WebElement;
 
 import utils.baseTest;
 
-public class headerPage extends baseTest {
+public class headerClass extends baseTest {
 	
 public static WebElement headerHome() {
 		
