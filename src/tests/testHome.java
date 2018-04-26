@@ -4,6 +4,7 @@ import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import pages.footerClass;
 import pages.headerClass;
 import pages.homePage;
 import pages.listaDePresentesPage;
@@ -104,23 +105,23 @@ public class testHome extends baseTest {
 
         Assert.assertTrue(catMais.contains(mais));
         
-        Assert.assertTrue(homePage.footerHome().isDisplayed());
+        Assert.assertTrue(footerClass.footerHome().isDisplayed());
         
-        Assert.assertTrue(homePage.divSaibaMaisFooter().isDisplayed());
+        Assert.assertTrue(footerClass.divSaibaMaisFooter().isDisplayed());
         
-        Assert.assertTrue(homePage.divCentralAtendimentoFooter().isDisplayed());
+        Assert.assertTrue(footerClass.divCentralAtendimentoFooter().isDisplayed());
         
-        Assert.assertTrue(homePage.divServicosFooter().isDisplayed());
+        Assert.assertTrue(footerClass.divServicosFooter().isDisplayed());
         
-        Assert.assertTrue(homePage.divSegurancaPrivacidadeFooter().isDisplayed());
+        Assert.assertTrue(footerClass.divSegurancaPrivacidadeFooter().isDisplayed());
         
-        Assert.assertTrue(homePage.divTelefonesFooter().isDisplayed());
+        Assert.assertTrue(footerClass.divTelefonesFooter().isDisplayed());
         
-        Assert.assertTrue(homePage.divTelevendasFooter().isDisplayed());
+        Assert.assertTrue(footerClass.divTelevendasFooter().isDisplayed());
         
-        Assert.assertTrue(homePage.divAcompanheEtnaFooter().isDisplayed());
+        Assert.assertTrue(footerClass.divAcompanheEtnaFooter().isDisplayed());
         
-        Assert.assertTrue(homePage.divTextoRodape().isDisplayed());
+        Assert.assertTrue(footerClass.divTextoRodape().isDisplayed());
 
     }
     
@@ -168,23 +169,23 @@ public class testHome extends baseTest {
     	
     	Assert.assertTrue(listaDePresentesPage.divAdicionadosRecentemente().isDisplayed());
     	
-    	Assert.assertTrue(homePage.footerHome().isDisplayed());
+    	Assert.assertTrue(footerClass.footerHome().isDisplayed());
         
-        Assert.assertTrue(homePage.divSaibaMaisFooter().isDisplayed());
+        Assert.assertTrue(footerClass.divSaibaMaisFooter().isDisplayed());
         
-        Assert.assertTrue(homePage.divCentralAtendimentoFooter().isDisplayed());
+        Assert.assertTrue(footerClass.divCentralAtendimentoFooter().isDisplayed());
         
-        Assert.assertTrue(homePage.divServicosFooter().isDisplayed());
+        Assert.assertTrue(footerClass.divServicosFooter().isDisplayed());
         
-        Assert.assertTrue(homePage.divSegurancaPrivacidadeFooter().isDisplayed());
+        Assert.assertTrue(footerClass.divSegurancaPrivacidadeFooter().isDisplayed());
         
-        Assert.assertTrue(homePage.divTelefonesFooter().isDisplayed());
+        Assert.assertTrue(footerClass.divTelefonesFooter().isDisplayed());
         
-        Assert.assertTrue(homePage.divTelevendasFooter().isDisplayed());
+        Assert.assertTrue(footerClass.divTelevendasFooter().isDisplayed());
         
-        Assert.assertTrue(homePage.divAcompanheEtnaFooter().isDisplayed());
+        Assert.assertTrue(footerClass.divAcompanheEtnaFooter().isDisplayed());
         
-        Assert.assertTrue(homePage.divTextoRodape().isDisplayed());
+        Assert.assertTrue(footerClass.divTextoRodape().isDisplayed());
     	
     }
     
@@ -268,23 +269,23 @@ public class testHome extends baseTest {
     	
     	Assert.assertTrue(nossasLojasPage.divSorocaba().isDisplayed());
     	
-        Assert.assertTrue(homePage.footerHome().isDisplayed());
+        Assert.assertTrue(footerClass.footerHome().isDisplayed());
         
-        Assert.assertTrue(homePage.divSaibaMaisFooter().isDisplayed());
+        Assert.assertTrue(footerClass.divSaibaMaisFooter().isDisplayed());
         
-        Assert.assertTrue(homePage.divCentralAtendimentoFooter().isDisplayed());
+        Assert.assertTrue(footerClass.divCentralAtendimentoFooter().isDisplayed());
         
-        Assert.assertTrue(homePage.divServicosFooter().isDisplayed());
+        Assert.assertTrue(footerClass.divServicosFooter().isDisplayed());
         
-        Assert.assertTrue(homePage.divSegurancaPrivacidadeFooter().isDisplayed());
+        Assert.assertTrue(footerClass.divSegurancaPrivacidadeFooter().isDisplayed());
         
-        Assert.assertTrue(homePage.divTelefonesFooter().isDisplayed());
+        Assert.assertTrue(footerClass.divTelefonesFooter().isDisplayed());
         
-        Assert.assertTrue(homePage.divTelevendasFooter().isDisplayed());
+        Assert.assertTrue(footerClass.divTelevendasFooter().isDisplayed());
         
-        Assert.assertTrue(homePage.divAcompanheEtnaFooter().isDisplayed());
+        Assert.assertTrue(footerClass.divAcompanheEtnaFooter().isDisplayed());
         
-        Assert.assertTrue(homePage.divTextoRodape().isDisplayed());
+        Assert.assertTrue(footerClass.divTextoRodape().isDisplayed());
     	
     }
     
