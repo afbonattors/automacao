@@ -15,7 +15,7 @@ public class listaDePresentesPage extends baseTest {
 	
 	public static WebElement divEncontreListaPresentes() {
 		
-		return baseTest.getDriver().findElement(By.id("WeddingSearch"));
+		return baseTest.getDriver().findElement(By.xpath("//*[@id=\"WeddingSearch\"]"));
 		
 	}
 	
@@ -45,7 +45,7 @@ public class listaDePresentesPage extends baseTest {
 	
 	public static WebElement divAcessaListaPresente() {
 		
-		return baseTest.getDriver().findElement(By.id("weddingLogin"));
+		return baseTest.getDriver().findElement(By.xpath("//*[@id=\"weddingLogin\"]"));
 		
 	}
 	
@@ -69,19 +69,19 @@ public class listaDePresentesPage extends baseTest {
 	
 	public static WebElement divDuvidas() {
 		
-		return baseTest.getDriver().findElement(By.cssSelector("body > div.wrapper > div.containerwrap > section > div > div.lista.left"));
+		return baseTest.getDriver().findElement(By.xpath("/html/body/div[3]/div[3]/section/div/div[1]"));
 		
 	}
 	
 	public static WebElement divNovaArea() {
 		
-		return baseTest.getDriver().findElement(By.cssSelector("body > div.wrapper > div.containerwrap > section > div > div.column.right > div.area"));
+		return baseTest.getDriver().findElement(By.xpath("/html/body/div[3]/div[3]/section/div/div[2]/div[1]"));
 		
 	}
 	
 	public static WebElement divAdicionadosRecentemente() {
 		
-		return baseTest.getDriver().findElement(By.id("weddingListProducts"));
+		return baseTest.getDriver().findElement(By.xpath("//*[@id=\"weddingListProducts\"]"));
 		
 	}
 

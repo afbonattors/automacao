@@ -9,7 +9,7 @@ public class nossasLojasPage extends baseTest {
 	
 	public static WebElement divNossasLojas() {
 		
-		return baseTest.getDriver().findElement(By.cssSelector("body > div.wrapper > div.containerwrap > section > nav > ul > li.act"));
+		return baseTest.getDriver().findElement(By.xpath("/html/body/div[3]/div[2]/section/nav/ul/li[2]"));
 		
 	}
 	
@@ -98,80 +98,92 @@ public class nossasLojasPage extends baseTest {
 	
 	public static WebElement divConfiraNossasLojas() {
 		
-		return baseTest.getDriver().findElement(By.cssSelector("body > div.wrapper > div.containerwrap > section > div > div"));
+		return baseTest.getDriver().findElement(By.xpath("/html/body/div[3]/div[2]/section/div/div"));
 		
 	}
 	
 	public static WebElement divLojaBerrini() {
 		
-		return baseTest.getDriver().findElement(By.cssSelector("#todas > ul > li:nth-child(1)"));
+		return baseTest.getDriver().findElement(By.xpath("//*[@id=\"todas\"]/ul/li[1]"));
 		
 	}
 	
 	public static WebElement divLojaMarginalTiete() {
 		
-		return baseTest.getDriver().findElement(By.cssSelector("#todas > ul > li:nth-child(2)"));
+		return baseTest.getDriver().findElement(By.xpath("//*[@id=\"todas\"]/ul/li[2]"));
 		
 	}
 	
 	public static WebElement divLojaRiodeJaneiro() {
 		
-		return baseTest.getDriver().findElement(By.cssSelector("#todas > ul > li:nth-child(3)"));
+		return baseTest.getDriver().findElement(By.xpath("//*[@id=\"todas\"]/ul/li[3]"));
 	}
 	
 	public static WebElement divCampinas() {
 		
-		return baseTest.getDriver().findElement(By.cssSelector("#todas > ul > li:nth-child(4)"));
+		return baseTest.getDriver().findElement(By.xpath("//*[@id=\"todas\"]/ul/li[4]"));
 	}
 	
 	public static WebElement divSalvador() {
 		
-		return baseTest.getDriver().findElement(By.cssSelector("#todas > ul > li:nth-child(5)"));
+		return baseTest.getDriver().findElement(By.xpath("//*[@id=\"todas\"]/ul/li[5]"));
 	}
 	
 	public static WebElement divNatal() {
 		
-		return baseTest.getDriver().findElement(By.cssSelector("#todas > ul > li:nth-child(6)"));
+		return baseTest.getDriver().findElement(By.xpath("//*[@id=\"todas\"]/ul/li[6]"));
 	}
 	
 	public static WebElement divBrasilia() {
 		
-		return baseTest.getDriver().findElement(By.cssSelector("#todas > ul > li:nth-child(7)"));
+		return baseTest.getDriver().findElement(By.xpath("//*[@id=\"todas\"]/ul/li[7]"));
 	}
 	
 	public static WebElement divGranjaViana() {
 		
-		return baseTest.getDriver().findElement(By.cssSelector("#todas > ul > li:nth-child(8)"));
+		return baseTest.getDriver().findElement(By.xpath("//*[@id=\"todas\"]/ul/li[8]"));
 	}
 	
 	public static WebElement divBeloHorizonte() {
 		
-		return baseTest.getDriver().findElement(By.cssSelector("#todas > ul > li:nth-child(9)"));
+		return baseTest.getDriver().findElement(By.xpath("//*[@id=\"todas\"]/ul/li[9]"));
 	}
 	
 	public static WebElement divCampoGrande() {
 		
-		return baseTest.getDriver().findElement(By.cssSelector("#todas > ul > li:nth-child(10)"));
+		return baseTest.getDriver().findElement(By.xpath("//*[@id=\"todas\"]/ul/li[10]"));
 	}
 	
 	public static WebElement divFortaleza() {
 		
-		return baseTest.getDriver().findElement(By.cssSelector("#todas > ul > li:nth-child(11)"));
+		return baseTest.getDriver().findElement(By.xpath("//*[@id=\"todas\"]/ul/li[11]"));
 	}
 	
 	public static WebElement divRecife() {
 		
-		return baseTest.getDriver().findElement(By.cssSelector("#todas > ul > li:nth-child(12)"));
+		return baseTest.getDriver().findElement(By.xpath("//*[@id=\"todas\"]/ul/li[12]"));
 	}
 	
 	public static WebElement divRibeiraoPreto() {
 		
-		return baseTest.getDriver().findElement(By.cssSelector("#todas > ul > li:nth-child(13)"));
+		return baseTest.getDriver().findElement(By.xpath("//*[@id=\"todas\"]/ul/li[13]"));
 	}
 	
 	public static WebElement divSorocaba() {
 		
-		return baseTest.getDriver().findElement(By.cssSelector("#todas > ul > li:nth-child(14)"));
-	}	
+		return baseTest.getDriver().findElement(By.xpath("//*[@id=\"todas\"]/ul/li[14]"));
+	}
+	
+	public static WebElement divProdutosSelecionados() {
+		
+		return baseTest.getDriver().findElement(By.xpath("//*[@id=\"lojas\"]"));
+		
+	}
+	
+	public static WebElement divProdutosVisitados() {
+		
+		return baseTest.getDriver().findElement(By.xpath("/html/body/div[3]/div[5]"));
+		
+	}
 
 }
