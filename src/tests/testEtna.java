@@ -17,7 +17,7 @@ import scripts.nossasLojasScript;
 import scripts.pesquisaProdutoScript;
 import utils.baseTest;
 
-public class testHome extends baseTest {
+public class testEtna extends baseTest {
 
     @Test (priority = 1)
 
