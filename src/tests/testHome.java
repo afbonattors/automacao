@@ -9,7 +9,7 @@ import pages.homePage;
 import pages.listaDePresentesPage;
 import pages.nossasLojasPage;
 import pages.pesquisaProdutoPage;
-import scripts.headeScript;
+import scripts.headerScript;
 import scripts.homeScript;
 import scripts.logOutScript;
 import scripts.nossasLojasScript;
@@ -130,7 +130,7 @@ public class testHome extends baseTest {
     	
     	System.out.println("\nTeste Home Lista de Presentes.");
     	
-    	headeScript.clicaListaPresente();
+    	headerScript.clicaListaPresente();
     	
     	Thread.sleep(1000);
     	
@@ -294,7 +294,7 @@ public class testHome extends baseTest {
     	
     	System.out.println("\nTeste de login.");
     	
-    	headeScript.clicaLogoEtna();
+    	headerScript.clicaLogoEtna();
     	
     	Assert.assertTrue(headerPage.headerHome().isDisplayed());
     	
@@ -404,7 +404,7 @@ public class testHome extends baseTest {
     	
     	System.out.println("\nTeste logout.");
     	
-    	headeScript.clicaLogoEtna();
+    	headerScript.clicaLogoEtna();
     	
     	Thread.sleep(1000);
     	

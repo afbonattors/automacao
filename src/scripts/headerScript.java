@@ -2,7 +2,7 @@ package scripts;
 
 import pages.headerPage;
 
-public class headeScript extends headerPage {
+public class headerScript extends headerPage {
 	
 public static void clicaLogoEtna() {
     	
