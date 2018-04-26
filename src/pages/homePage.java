@@ -6,9 +6,7 @@ import org.openqa.selenium.WebElement;
 
 public class homePage extends baseTest {
 	
-	
-    
-    public static WebElement divLogin() {
+	public static WebElement divLogin() {
     	
     	return baseTest.getDriver().findElement(By.xpath("//*[@id=\"boxlogin\"]"));
     }
@@ -102,7 +100,5 @@ public class homePage extends baseTest {
         return baseTest.getDriver().findElement(By.cssSelector("body > div.wrapper > header > div > nav > ul > li:nth-child(10) > h2 > a"));
 
     }
-    
-
 
 }
