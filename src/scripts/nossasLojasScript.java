@@ -1,8 +1,8 @@
 package scripts;
 
-import pages.homePage;
+import pages.headerPage;
 
-public class nossasLojasScript extends homePage {
+public class nossasLojasScript extends headerPage {
 	
 	public static void acessaNossasLojas() {
 
