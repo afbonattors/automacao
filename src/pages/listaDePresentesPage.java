@@ -7,6 +7,12 @@ import utils.baseTest;
 
 public class listaDePresentesPage extends baseTest {
 	
+	public static WebElement divBannerLista() {
+		
+		return baseTest.getDriver().findElement(By.xpath("/html/body/div[3]/div[1]/div"));
+		
+	}
+	
 	public static WebElement divEncontreListaPresentes() {
 		
 		return baseTest.getDriver().findElement(By.id("WeddingSearch"));

@@ -145,7 +145,11 @@ public class testEtna extends baseTest {
     	
     	Assert.assertTrue(headerClass.nossasLojas().isDisplayed());
     	
-    	Assert.assertTrue(headerClass.iconeCarrinho().isDisplayed());  	
+    	Assert.assertTrue(headerClass.iconeCarrinho().isDisplayed());
+    	
+    	Thread.sleep(1000);
+    	
+    	Assert.assertTrue(listaDePresentesPage.divBannerLista().isDisplayed());
     	
     	Assert.assertTrue(listaDePresentesPage.divEncontreListaPresentes().isDisplayed());
     	
