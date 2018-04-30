@@ -2,40 +2,40 @@
 <testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="106415" started-at="2018-04-30T17:01:46Z" finished-at="2018-04-30T17:03:32Z">
+  <suite name="Default suite" duration-ms="98353" started-at="2018-04-30T19:26:15Z" finished-at="2018-04-30T19:27:54Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="106415" started-at="2018-04-30T17:01:46Z" finished-at="2018-04-30T17:03:32Z">
+    <test name="Default test" duration-ms="98353" started-at="2018-04-30T19:26:15Z" finished-at="2018-04-30T19:27:54Z">
       <class name="tests.testEtna">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.testEtna@14acaea5]" name="setUp" is-config="true" duration-ms="18027" started-at="2018-04-30T14:01:46Z" finished-at="2018-04-30T14:02:04Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.testEtna@14acaea5]" name="setUp" is-config="true" duration-ms="20067" started-at="2018-04-30T16:26:15Z" finished-at="2018-04-30T16:26:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testHomePage()[pri:1, instance:tests.testEtna@14acaea5]" name="testHomePage" duration-ms="5193" started-at="2018-04-30T14:02:04Z" finished-at="2018-04-30T14:02:09Z">
+        <test-method status="PASS" signature="testHomePage()[pri:1, instance:tests.testEtna@14acaea5]" name="testHomePage" duration-ms="5234" started-at="2018-04-30T16:26:35Z" finished-at="2018-04-30T16:26:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testHomePage -->
-        <test-method status="PASS" signature="testListaPresente()[pri:2, instance:tests.testEtna@14acaea5]" name="testListaPresente" duration-ms="8167" started-at="2018-04-30T14:02:09Z" finished-at="2018-04-30T14:02:17Z">
+        <test-method status="PASS" signature="testListaPresente()[pri:2, instance:tests.testEtna@14acaea5]" name="testListaPresente" duration-ms="6585" started-at="2018-04-30T16:26:41Z" finished-at="2018-04-30T16:26:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testListaPresente -->
-        <test-method status="PASS" signature="testNossasLojas()[pri:3, instance:tests.testEtna@14acaea5]" name="testNossasLojas" duration-ms="7511" started-at="2018-04-30T14:02:17Z" finished-at="2018-04-30T14:02:25Z">
+        <test-method status="PASS" signature="testNossasLojas()[pri:3, instance:tests.testEtna@14acaea5]" name="testNossasLojas" duration-ms="6097" started-at="2018-04-30T16:26:47Z" finished-at="2018-04-30T16:26:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testNossasLojas -->
-        <test-method status="PASS" signature="testLogin()[pri:4, instance:tests.testEtna@14acaea5]" name="testLogin" duration-ms="20156" started-at="2018-04-30T14:02:25Z" finished-at="2018-04-30T14:02:45Z">
+        <test-method status="PASS" signature="testLogin()[pri:4, instance:tests.testEtna@14acaea5]" name="testLogin" duration-ms="14036" started-at="2018-04-30T16:26:53Z" finished-at="2018-04-30T16:27:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogin -->
-        <test-method status="PASS" signature="testCarrinho()[pri:5, instance:tests.testEtna@14acaea5]" name="testCarrinho" duration-ms="29099" started-at="2018-04-30T14:02:45Z" finished-at="2018-04-30T14:03:14Z">
+        <test-method status="PASS" signature="testCarrinho()[pri:5, instance:tests.testEtna@14acaea5]" name="testCarrinho" duration-ms="28441" started-at="2018-04-30T16:27:07Z" finished-at="2018-04-30T16:27:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCarrinho -->
-        <test-method status="PASS" signature="testLogOut()[pri:20, instance:tests.testEtna@14acaea5]" name="testLogOut" duration-ms="17403" started-at="2018-04-30T14:03:14Z" finished-at="2018-04-30T14:03:31Z">
+        <test-method status="PASS" signature="testLogOut()[pri:20, instance:tests.testEtna@14acaea5]" name="testLogOut" duration-ms="17007" started-at="2018-04-30T16:27:36Z" finished-at="2018-04-30T16:27:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogOut -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.testEtna@14acaea5]" name="tearDown" is-config="true" duration-ms="845" started-at="2018-04-30T14:03:31Z" finished-at="2018-04-30T14:03:32Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.testEtna@14acaea5]" name="tearDown" is-config="true" duration-ms="854" started-at="2018-04-30T16:27:53Z" finished-at="2018-04-30T16:27:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

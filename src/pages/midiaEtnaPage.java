@@ -5,7 +5,7 @@ import org.openqa.selenium.WebElement;
 
 import utils.baseTest;
 
-public class trabalheConoscoPage extends baseTest {
+public class midiaEtnaPage extends baseTest {
 	
 	public static WebElement divMenuLateral() {
 		
@@ -13,32 +13,16 @@ public class trabalheConoscoPage extends baseTest {
 		
 	}
 	
-	public static WebElement divTrabalheConosco() {
+	public static WebElement divComunicacao() {
 		
 		return baseTest.getDriver().findElement(By.xpath("/html/body/div[3]/div[2]/section/div"));
 		
 	}
 	
-	public static WebElement btnCadastroCVVagas() {
+	public static WebElement btnAcompanhe() {
 		
-		return baseTest.getDriver().findElement(By.xpath("/html/body/div[3]/div[2]/section/div/div/ul/li[1]/a[2]"));
-	}
-	
-	public static WebElement btnBuscaVagasVagas() {
+		return baseTest.getDriver().findElement(By.xpath("/html/body/div[3]/div[2]/section/div/div[2]/p[2]/a"));
 		
-		return baseTest.getDriver().findElement(By.xpath("/html/body/div[3]/div[2]/section/div/div/ul/li[1]/a[1]"));
-		
-	}
-	
-	public static WebElement btnCadastroCVLinkedin() {
-		
-		return baseTest.getDriver().findElement(By.xpath("/html/body/div[3]/div[2]/section/div/div/ul/li[2]/a[2]"));
-		
-	}
-	
-	public static WebElement btnBuscaVagasLinkedin() {
-		
-		return baseTest.getDriver().findElement(By.xpath("/html/body/div[3]/div[2]/section/div/div/ul/li[2]/a[1]"));
 	}
 	
 	public static WebElement rodapeProdutos() {
