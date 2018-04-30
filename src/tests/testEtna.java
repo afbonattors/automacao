@@ -383,6 +383,8 @@ public class testEtna extends baseTest {
     	
     	Assert.assertTrue(capaAlmofada.contains(Almofada));
     	
+    	Thread.sleep(1000);
+    	
     	pesquisaProdutoScript.limpaCarrinhoCompras();
     	
     	Thread.sleep(1000);
