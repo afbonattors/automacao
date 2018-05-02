@@ -41,7 +41,7 @@ public class trabalheConoscoPage extends baseTest {
 		return baseTest.getDriver().findElement(By.xpath("/html/body/div[3]/div[2]/section/div/div/ul/li[2]/a[1]"));
 	}
 	
-	public static WebElement rodapeProdutos() {
+	public static WebElement footerProdutos() {
 		
 		return baseTest.getDriver().findElement(By.xpath("/html/body/div[3]/div[4]"));
 		
