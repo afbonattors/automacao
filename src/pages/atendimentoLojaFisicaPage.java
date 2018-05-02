@@ -88,6 +88,49 @@ public class atendimentoLojaFisicaPage extends baseTest {
 	public static WebElement txtTelefone() {
 		
 		return baseTest.getDriver().findElement(By.xpath("//*[@id=\"formStoreSupport\"]/div[3]/div[2]/div[2]"));
+		
+	}
+	
+	public static WebElement txtEmail() {
+		
+		return baseTest.getDriver().findElement(By.xpath("//*[@id=\"fromMailAddress\"]"));
+		
+	}
+	
+	public static WebElement comboboxAssunto() {
+		
+		return baseTest.getDriver().findElement(By.xpath("//*[@id=\"formStoreSupport\"]/div[3]/div[4]/div"));
+		
+	}
+	
+	public static WebElement txtNumeroPedido() {
+		
+		return baseTest.getDriver().findElement(By.xpath("//*[@id=\"orderNumber\"]"));
+		
+	}
+	
+	public static WebElement txtMensagem() {
+		
+		return baseTest.getDriver().findElement(By.xpath("//*[@id=\"formStoreSupport\"]/div[3]/div[6]"));
+		
+	}
+	
+	public static WebElement recaptcha() {
+		
+		return baseTest.getDriver().findElement(By.xpath("//*[@id=\"formStoreSupport\"]/div[3]/div[7]"));
+		
+	}
+	
+	public static WebElement checkboxRecaptcha() {
+		
+		return baseTest.getDriver().findElement(By.xpath("//*[@id=\"recaptcha-anchor\"]/div[5]"));
+		
+	}
+	
+	public static WebElement btnEnviar() {
+		
+		return baseTest.getDriver().findElement(By.xpath("//*[@id=\"btenviar\"]"));
+		
 	}
 
 }
