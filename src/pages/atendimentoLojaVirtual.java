@@ -111,13 +111,13 @@ public class atendimentoLojaVirtual extends baseTest {
 	
 	public static WebElement txtMensagem() {
 		
-		return baseTest.getDriver().findElement(By.xpath("//*[@id=\"formStoreSupport\"]/div[3]/div[6]"));
+		return baseTest.getDriver().findElement(By.xpath("//*[@id=\"formVirtualStoreSupport\"]/div[3]/div[8]"));
 		
 	}
 	
 	public static WebElement recaptcha() {
 		
-		return baseTest.getDriver().findElement(By.xpath("//*[@id=\"formStoreSupport\"]/div[3]/div[7]"));
+		return baseTest.getDriver().findElement(By.xpath("//*[@id=\"formVirtualStoreSupport\"]/div[3]/div[11]"));
 		
 	}
 	
