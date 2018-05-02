@@ -30,29 +30,5 @@ public class midiaEtnaPage extends baseTest {
 		return baseTest.getDriver().findElement(By.xpath("/html/body/div[3]/div[4]"));
 		
 	}
-	
-	public static WebElement divFooterSaibaMais() {
-		
-		return baseTest.getDriver().findElement(By.xpath("/html/body/div[3]/footer/div[1]/div[1]"));
-		
-	}
-	
-	public static WebElement divFooterCentralAtendimento() {
-		
-		return baseTest.getDriver().findElement(By.xpath("/html/body/div[3]/footer/div[1]/div[2]"));
-		
-	}
-	
-	public static WebElement divFooterServicos() {
-		
-		return baseTest.getDriver().findElement(By.xpath("/html/body/div[3]/footer/div[1]/div[3]"));
-		
-	}
-	
-	public static WebElement divSegurancaPrivacidade() {
-		
-		return baseTest.getDriver().findElement(By.xpath("/html/body/div[3]/footer/div[1]/div[4]"));
-		
-	}
 
 }
