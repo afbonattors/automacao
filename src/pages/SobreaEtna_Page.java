@@ -3,25 +3,25 @@ package pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
-import utils.baseTest;
+import utils.BaseTest;
 
-public class SobreaEtna_Page extends baseTest {
+public class SobreaEtna_Page extends BaseTest {
 	
 	public static WebElement divSobreEtna() {
 		
-		return baseTest.getDriver().findElement(By.xpath("/html/body/div[3]/div[2]/section/nav"));
+		return BaseTest.getDriver().findElement(By.xpath("/html/body/div[3]/div[2]/section/nav"));
 		
 	}
 	
 	public static WebElement divConteudoSobre() {
 		
-		return baseTest.getDriver().findElement(By.xpath("/html/body/div[3]/div[2]/section/div"));
+		return BaseTest.getDriver().findElement(By.xpath("/html/body/div[3]/div[2]/section/div"));
 		
 	}
 	
 	public static WebElement divProdutosVisitados() {
 		
-		return baseTest.getDriver().findElement(By.xpath("/html/body/div[3]/div[2]/div[2]"));
+		return BaseTest.getDriver().findElement(By.xpath("/html/body/div[3]/div[2]/div[2]"));
 	}
 
 }

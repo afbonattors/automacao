@@ -15,9 +15,9 @@ import scripts.Home_Script;
 import scripts.LogOut_Script;
 import scripts.NossasLojas_Script;
 import scripts.PesquisaProduto_Script;
-import utils.baseTest;
+import utils.BaseTest;
 
-public class TestEtna extends baseTest {
+public class TestEtna extends BaseTest {
 
     @Test (priority = 1)
 

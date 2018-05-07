@@ -1,103 +1,103 @@
 package pages;
 
-import utils.baseTest;
+import utils.BaseTest;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
-public class Home_Page extends baseTest {
+public class Home_Page extends BaseTest {
 	
 	public static WebElement divLogin() {
     	
-    	return baseTest.getDriver().findElement(By.xpath("//*[@id=\"boxlogin\"]"));
+    	return BaseTest.getDriver().findElement(By.xpath("//*[@id=\"boxlogin\"]"));
     }
     
     public static WebElement facaSeuLogin() {
 
-        return baseTest.getDriver().findElement(By.cssSelector("#formHeaderNav2 > p.cadastreseDesktop > a.facaLogin"));
+        return BaseTest.getDriver().findElement(By.cssSelector("#formHeaderNav2 > p.cadastreseDesktop > a.facaLogin"));
 
     }
     
     public static WebElement btnFaceBook() {
     	
-    	return baseTest.getDriver().findElement(By.id("facebook-login-button"));
+    	return BaseTest.getDriver().findElement(By.id("facebook-login-button"));
     	
     }
 
     public static WebElement txtfieldEmail() {
 
-        return baseTest.getDriver().findElement(By.id("login-email"));
+        return BaseTest.getDriver().findElement(By.id("login-email"));
 
     }
 
     public static WebElement txtfieldSenha() {
 
-        return baseTest.getDriver().findElement(By.id("login-senha"));
+        return BaseTest.getDriver().findElement(By.id("login-senha"));
 
     }
 
     public static WebElement btnEntrar() {
 
-        return baseTest.getDriver().findElement(By.cssSelector("#formHeaderNav2 > div.row.lkbt > input.btn.btn-primary.btn-sm.right"));
+        return BaseTest.getDriver().findElement(By.cssSelector("#formHeaderNav2 > div.row.lkbt > input.btn.btn-primary.btn-sm.right"));
 
     }
 
     public static WebElement usuarioLogado() {
 
-        return baseTest.getDriver().findElement(By.cssSelector("body > div.wrapper > header > div > div.buscaecarrinho.ng-scope > ul > li.logar.logado.act.botoes-top > p"));
+        return BaseTest.getDriver().findElement(By.cssSelector("body > div.wrapper > header > div > div.buscaecarrinho.ng-scope > ul > li.logar.logado.act.botoes-top > p"));
 
     }
 
     public static WebElement catMoveis(){
 
-        return baseTest.getDriver().findElement(By.cssSelector("body > div.wrapper > header > div > nav > ul > li:nth-child(2) > h2 > a"));
+        return BaseTest.getDriver().findElement(By.cssSelector("body > div.wrapper > header > div > nav > ul > li:nth-child(2) > h2 > a"));
 
     }
 
     public static WebElement catDecoracao(){
 
-        return baseTest.getDriver().findElement(By.cssSelector("body > div.wrapper > header > div > nav > ul > li:nth-child(3) > h2 > a"));
+        return BaseTest.getDriver().findElement(By.cssSelector("body > div.wrapper > header > div > nav > ul > li:nth-child(3) > h2 > a"));
 
     }
 
     public static WebElement catUtilDomesticas(){
 
-        return baseTest.getDriver().findElement(By.cssSelector("body > div.wrapper > header > div > nav > ul > li:nth-child(4) > h2 > a"));
+        return BaseTest.getDriver().findElement(By.cssSelector("body > div.wrapper > header > div > nav > ul > li:nth-child(4) > h2 > a"));
 
     }
 
     public static WebElement catOrganizadores(){
 
-        return baseTest.getDriver().findElement(By.cssSelector("body > div.wrapper > header > div > nav > ul > li:nth-child(5) > h2 > a"));
+        return BaseTest.getDriver().findElement(By.cssSelector("body > div.wrapper > header > div > nav > ul > li:nth-child(5) > h2 > a"));
 
     }
 
     public static WebElement catCamaBanho(){
 
-        return baseTest.getDriver().findElement(By.cssSelector("body > div.wrapper > header > div > nav > ul > li:nth-child(6) > h2 > a"));
+        return BaseTest.getDriver().findElement(By.cssSelector("body > div.wrapper > header > div > nav > ul > li:nth-child(6) > h2 > a"));
 
     }
 
     public static WebElement catServicos(){
 
-        return baseTest.getDriver().findElement(By.cssSelector("body > div.wrapper > header > div > nav > ul > li:nth-child(7) > h2 > a"));
+        return BaseTest.getDriver().findElement(By.cssSelector("body > div.wrapper > header > div > nav > ul > li:nth-child(7) > h2 > a"));
 
     }
 
     public static WebElement catIluminacao(){
 
-        return baseTest.getDriver().findElement(By.cssSelector("body > div.wrapper > header > div > nav > ul > li:nth-child(8) > h2 > a"));
+        return BaseTest.getDriver().findElement(By.cssSelector("body > div.wrapper > header > div > nav > ul > li:nth-child(8) > h2 > a"));
 
     }
 
     public static WebElement catNatal(){
 
-        return baseTest.getDriver().findElement(By.cssSelector("body > div.wrapper > header > div > nav > ul > li:nth-child(9) > h2 > a"));
+        return BaseTest.getDriver().findElement(By.cssSelector("body > div.wrapper > header > div > nav > ul > li:nth-child(9) > h2 > a"));
 
     }
 
     public static WebElement catMais(){
 
-        return baseTest.getDriver().findElement(By.cssSelector("body > div.wrapper > header > div > nav > ul > li:nth-child(10) > h2 > a"));
+        return BaseTest.getDriver().findElement(By.cssSelector("body > div.wrapper > header > div > nav > ul > li:nth-child(10) > h2 > a"));
 
     }
 

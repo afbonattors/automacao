@@ -8,7 +8,7 @@ import org.testng.annotations.BeforeClass;
 
 import java.util.concurrent.TimeUnit;
 
-public abstract class baseTest {
+public abstract class BaseTest {
 
     public static WebDriver driver;
     public static String driverPath = "C:\\Selenium\\Driver\\chromedriver.exe";
