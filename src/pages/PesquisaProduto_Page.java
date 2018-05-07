@@ -50,7 +50,7 @@ public class PesquisaProduto_Page {
 	
 	public static WebElement limpaCarrinho() {
 		
-		return BaseTest.getDriver().findElement(By.cssSelector("#removeAllItems > input.btlimpar"));
+		return BaseTest.getDriver().findElement(By.xpath("//*[@id=\"removeAllItems\"]/input["));
 		
 	}
 	
