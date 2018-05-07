@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Default_suite">
-              <span class="suite-name border-passed">Default suite</span>
+              <span class="suite-name border-failed">Default suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>C:\Users\ObjectEdge\AppData\Local\Temp\testng-eclipse--1803696932\testng-customsuite.xml</span>
+                    <span>C:\Users\ObjectEdge\AppData\Local\Temp\testng-eclipse--1789038003\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">6 methods,   6 passed</span>
+                    <span class="method-stats">6 methods, 1 failed,   5 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods failed suite-Default_suite"> (hide)</a> <!-- hide-methods failed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods failed suite-Default_suite"> (show)</a> <!-- show-methods failed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Default_suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="tests.testEtna" hash-for-method="testCarrinho">testCarrinho</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Default_suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -100,11 +114,6 @@
                       <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
                     </span>
                     <div class="method-list-content passed suite-Default_suite">
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="tests.testEtna" hash-for-method="testCarrinho">testCarrinho</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="tests.testEtna" hash-for-method="testHomePage">testHomePage</a> <!-- method navigator-link -->
@@ -142,9 +151,9 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Default_suite" class="panel Default_suite">
-          <div class="suite-Default_suite-class-passed">
+          <div class="suite-Default_suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
+              <img src="failed.png"/>
               <span class="class-name">tests.testEtna</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -153,8 +162,49 @@
                   <a name="testCarrinho">
                   </a> <!-- testCarrinho -->
                   <span class="method-name">testCarrinho</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertTrue(Assert.java:44)
+	at org.testng.Assert.assertTrue(Assert.java:54)
+	at tests.testEtna.testCarrinho(testEtna.java:384)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.runSuites(TestNG.java:1028)
+	at org.testng.TestNG.run(TestNG.java:996)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-failed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.testEtna</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
                   <a name="testHomePage">
@@ -195,7 +245,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\ObjectEdge\AppData\Local\Temp\testng-eclipse--1803696932\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\ObjectEdge\AppData\Local\Temp\testng-eclipse--1789038003\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -248,27 +298,27 @@ data.addRows(6);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'testCarrinho')
 data.setCell(0, 2, 'tests.testEtna')
-data.setCell(0, 3, 36743);
+data.setCell(0, 3, 25552);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'testLogOut')
 data.setCell(1, 2, 'tests.testEtna')
-data.setCell(1, 3, 16032);
+data.setCell(1, 3, 14693);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'testLogin')
 data.setCell(2, 2, 'tests.testEtna')
-data.setCell(2, 3, 14323);
+data.setCell(2, 3, 13123);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'testListaPresente')
 data.setCell(3, 2, 'tests.testEtna')
-data.setCell(3, 3, 7654);
+data.setCell(3, 3, 8672);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'testNossasLojas')
 data.setCell(4, 2, 'tests.testEtna')
-data.setCell(4, 3, 6636);
+data.setCell(4, 3, 6632);
 data.setCell(5, 0, 5)
 data.setCell(5, 1, 'testHomePage')
 data.setCell(5, 2, 'tests.testEtna')
-data.setCell(5, 3, 5520);
+data.setCell(5, 3, 5035);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
@@ -306,31 +356,33 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">testHomePage</span>
-                <span class="method-start">22000 ms</span>
+                <span class="method-start">24185 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testListaPresente</span>
-                <span class="method-start">27523 ms</span>
+                <span class="method-start">29220 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testNossasLojas</span>
-                <span class="method-start">35178 ms</span>
+                <span class="method-start">37894 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testLogin</span>
-                <span class="method-start">41815 ms</span>
+                <span class="method-start">44527 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">testCarrinho</span>
-                <span class="method-start">56139 ms</span>
+                <span class="method-start">57650 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testLogOut</span>
-                <span class="method-start">92883 ms</span>
+                <span class="method-start">83266 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">108916 ms</span>
+                <span class="method-start">97964 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
