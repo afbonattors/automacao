@@ -5,7 +5,7 @@ import org.openqa.selenium.WebElement;
 
 import utils.baseTest;
 
-public class checkoutPage extends baseTest{
+public class Checkout_Page extends baseTest{
 	
 	public static WebElement finalizaPedido() {
 		

@@ -1,8 +1,8 @@
 package scripts;
 
-import pages.headerClass;
+import pages.HeaderClass;
 
-public class nossasLojasScript extends headerClass {
+public class NossasLojas_Script extends HeaderClass {
 	
 	public static void acessaNossasLojas() {
 

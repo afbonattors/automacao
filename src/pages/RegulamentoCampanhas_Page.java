@@ -5,7 +5,7 @@ import org.openqa.selenium.WebElement;
 
 import utils.baseTest;
 
-public class regulamentoCampanhasPage extends baseTest {
+public class RegulamentoCampanhas_Page extends baseTest {
 	
 	public static WebElement divLateral() {
 		

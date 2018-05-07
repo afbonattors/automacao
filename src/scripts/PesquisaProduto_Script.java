@@ -1,8 +1,8 @@
 package scripts;
 
-import pages.pesquisaProdutoPage;
+import pages.PesquisaProduto_Page;
 
-public class pesquisaProdutoScript extends pesquisaProdutoPage {
+public class PesquisaProduto_Script extends PesquisaProduto_Page {
 	
 	public static void clicaLupa() {
 		

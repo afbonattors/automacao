@@ -1,8 +1,8 @@
 package scripts;
 
-import pages.headerClass;
+import pages.HeaderClass;
 
-public class headerScript extends headerClass {
+public class Header_Script extends HeaderClass {
 	
 public static void clicaLogoEtna() {
     	

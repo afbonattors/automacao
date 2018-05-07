@@ -4,7 +4,7 @@ import utils.baseTest;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
-public class homePage extends baseTest {
+public class Home_Page extends baseTest {
 	
 	public static WebElement divLogin() {
     	

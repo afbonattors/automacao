@@ -1,8 +1,8 @@
 package scripts;
 
-import pages.homeLogOutPage;
+import pages.HomeLogOut_Page;
 
-public class logOutScript extends homeLogOutPage {
+public class LogOut_Script extends HomeLogOut_Page {
 	
 	public static void clicaMinhaConta() {
 		

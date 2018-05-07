@@ -5,7 +5,7 @@ import org.openqa.selenium.WebElement;
 
 import utils.baseTest;
 
-public class listaDePresentesPage extends baseTest {
+public class ListaDePresentes_Page extends baseTest {
 	
 	public static WebElement divBannerLista() {
 		

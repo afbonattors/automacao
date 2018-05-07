@@ -4,7 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import utils.baseTest;
 
-public class pesquisaProdutoPage {
+public class PesquisaProduto_Page {
 	
 	public static WebElement lupaPesquisa() {
 		

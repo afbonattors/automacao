@@ -5,7 +5,7 @@ import org.openqa.selenium.WebElement;
 
 import utils.baseTest;
 
-public class meusDadosPage extends baseTest {
+public class MeusDados_Page extends baseTest {
 	
 	public static WebElement divDadosDeCadastro() {
 		

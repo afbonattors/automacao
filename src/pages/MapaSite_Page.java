@@ -5,7 +5,7 @@ import org.openqa.selenium.WebElement;
 
 import utils.baseTest;
 
-public class mapaSitePage extends baseTest {
+public class MapaSite_Page extends baseTest {
 	
 	public static WebElement divHeaderMapa() {
 		

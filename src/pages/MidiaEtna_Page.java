@@ -5,7 +5,7 @@ import org.openqa.selenium.WebElement;
 
 import utils.baseTest;
 
-public class midiaEtnaPage extends baseTest {
+public class MidiaEtna_Page extends baseTest {
 	
 	public static WebElement divMenuLateral() {
 		

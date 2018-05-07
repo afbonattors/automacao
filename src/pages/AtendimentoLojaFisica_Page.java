@@ -5,7 +5,7 @@ import org.openqa.selenium.WebElement;
 
 import utils.baseTest;
 
-public class atendimentoLojaFisicaPage extends baseTest {
+public class AtendimentoLojaFisica_Page extends baseTest {
 	
 	public static WebElement divTelefones() {
 		

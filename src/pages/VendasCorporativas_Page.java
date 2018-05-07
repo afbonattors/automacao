@@ -1,11 +1,12 @@
 package pages;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
 import utils.baseTest;
 
-public class parceriosPage extends baseTest {
+public class VendasCorporativas_Page extends baseTest {
 	
 	public static WebElement divLateral() {
 		
@@ -43,15 +44,15 @@ public class parceriosPage extends baseTest {
 		
 	}
 	
-	public static WebElement btnRegulamento() {
+	public static WebElement btnFormularioVenda() {
 		
-		return baseTest.getDriver().findElement(By.xpath("/html/body/div[3]/div[2]/section/div/div/p[3]/a[1]"));
+		return baseTest.getDriver().findElement(By.xpath("/html/body/div[3]/div[2]/section/div/div/p/a[1]"));
 		
 	}
 	
-	public static WebElement btnCadastroParceiros() {
+	public static WebElement btnAutorizacaoCompra() {
 		
-		return baseTest.getDriver().findElement(By.xpath("/html/body/div[3]/div[2]/section/div/div/p[3]/a[2]"));
+		return baseTest.getDriver().findElement(By.xpath("/html/body/div[3]/div[2]/section/div/div/p/a[2]"));
 		
 	}
 

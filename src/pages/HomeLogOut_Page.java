@@ -5,7 +5,7 @@ import org.openqa.selenium.WebElement;
 
 import utils.baseTest;
 
-public class homeLogOutPage extends baseTest{
+public class HomeLogOut_Page extends baseTest{
 	
 	public static WebElement minhaConta() {
 		

@@ -1,8 +1,8 @@
 package scripts;
 
-import pages.homePage;
+import pages.Home_Page;
 
-public class homeScript extends homePage {
+public class Home_Script extends Home_Page {
 
     public static void clicaFacaLogin() {
 
