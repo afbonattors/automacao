@@ -50,13 +50,13 @@ public class PesquisaProduto_Page {
 	
 	public static WebElement limpaCarrinho() {
 		
-		return BaseTest.getDriver().findElement(By.xpath("//*[@id=\"removeAllItems\"]/input["));
+		return BaseTest.getDriver().findElement(By.xpath("//*[@id=\"removeAllItems\"]/input[5]"));
 		
 	}
 	
 	public static WebElement btnExcluirProdutoCarrinho() {
 		
-		return BaseTest.getDriver().findElement(By.xpath("//*[@id=\"removeci\"]"));
+		return BaseTest.getDriver().findElement(By.xpath("//*[@id=\"removeAllItems\"]/input[5]"));
 		
 	}
 	
