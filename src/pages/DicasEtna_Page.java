@@ -31,6 +31,40 @@ public class DicasEtna_Page extends BaseTest {
 		
 	}
 	
+	public static WebElement divLista4() {
+		
+		return BaseTest.getDriver().findElement(By.xpath("/html/body/div[3]/div[4]/section/ul[2]/li[4]"));
+		
+	}
 	
+	public static WebElement divLista5() {
+		
+		return BaseTest.getDriver().findElement(By.xpath("/html/body/div[3]/div[4]/section/ul[2]/li[5]"));
+		
+	}
+	
+	public static WebElement divLista6() {
+		
+		return BaseTest.getDriver().findElement(By.xpath("/html/body/div[3]/div[4]/section/ul[2]/li[6]"));
+		
+	}
+	
+	public static WebElement divLista7() {
+		
+		return BaseTest.getDriver().findElement(By.xpath("/html/body/div[3]/div[4]/section/ul[2]/li[7]"));
+		
+	}
+	
+	public static WebElement divLista8() {
+		
+		return BaseTest.getDriver().findElement(By.xpath("/html/body/div[3]/div[4]/section/ul[2]/li[8]"));
+		
+	}
+	
+	public static WebElement divLista9() {
+		
+		return BaseTest.getDriver().findElement(By.xpath("/html/body/div[3]/div[4]/section/ul[2]/li[9]"));
+		
+	}	
 
 }
