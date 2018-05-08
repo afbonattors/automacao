@@ -387,11 +387,11 @@ public class TestEtna extends BaseTest {
     	
     	PesquisaProduto_Script.limpaCarrinhoCompras();
     	
-    	Thread.sleep(1000);
+    	Thread.sleep(3000);
     	
     	action.moveToElement(HeaderClass.iconeCarrinho()).build().perform();
     	
-    	Thread.sleep(1000);
+    	Thread.sleep(3000);
     	
     	Assert.assertTrue(PesquisaProduto_Page.labelNaoHaProduto().isEnabled());    	
     	
