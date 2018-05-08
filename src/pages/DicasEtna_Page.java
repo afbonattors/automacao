@@ -65,6 +65,12 @@ public class DicasEtna_Page extends BaseTest {
 		
 		return BaseTest.getDriver().findElement(By.xpath("/html/body/div[3]/div[4]/section/ul[2]/li[9]"));
 		
-	}	
+	}
+	
+	public static WebElement divContainer() {
+		
+		return BaseTest.getDriver().findElement(By.xpath("/html/body/div[3]/div[5]"));
+		
+	}
 
 }
