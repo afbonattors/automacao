@@ -405,7 +405,7 @@ public class TestEtna extends BaseTest {
     	
     }*/
     
-    @Test (priority = 20)
+    @Test (priority = 7)
     
     public static void testLogOut() throws Exception {
     	
