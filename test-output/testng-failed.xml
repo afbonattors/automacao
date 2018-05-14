@@ -5,9 +5,14 @@
     <classes>
       <class name="tests.TestEtna">
         <methods>
+          <include name="testLogOut"/>
+          <include name="testListaPresente"/>
           <include name="tearDown"/>
           <include name="setUp"/>
+          <include name="testHomePage"/>
           <include name="testCarrinho"/>
+          <include name="testNossasLojas"/>
+          <include name="testLogin"/>
         </methods>
       </class> <!-- tests.TestEtna -->
     </classes>

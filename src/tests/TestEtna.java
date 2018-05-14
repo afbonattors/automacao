@@ -25,6 +25,10 @@ public class TestEtna extends BaseTest {
     	
     	System.out.println("\nTeste homepage.");
     	
+    	String TituloPagina = getDriver().getTitle();
+    	
+    	Assert.assertTrue(TituloPagina.equals("Etna"), "HML Indisponível");
+    	
     	Assert.assertTrue(HeaderClass.headerHome().isDisplayed());
     	
     	Assert.assertTrue(HeaderClass.logoEtna().isDisplayed());
