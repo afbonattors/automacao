@@ -1,25 +1,121 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="4" failed="0" ignored="0" total="5" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="88857" started-at="2018-05-15T14:37:50Z" finished-at="2018-05-15T14:39:19Z">
+  <suite name="TesteSuite" duration-ms="26247" started-at="2018-05-15T17:37:53Z" finished-at="2018-05-15T17:38:20Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="88857" started-at="2018-05-15T14:37:50Z" finished-at="2018-05-15T14:39:19Z">
-      <class name="tests.CarrinhoTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.CarrinhoTest@14acaea5]" name="setUp" is-config="true" duration-ms="16076" started-at="2018-05-15T11:37:50Z" finished-at="2018-05-15T11:38:06Z">
+    <test name="SuiteTest" duration-ms="26247" started-at="2018-05-15T17:37:53Z" finished-at="2018-05-15T17:38:20Z">
+      <class name="tests.LoginTest">
+        <test-method status="SKIP" signature="loginTest()[pri:0, instance:tests.LoginTest@5b275dab]" name="loginTest" duration-ms="0" started-at="2018-05-15T14:38:20Z" finished-at="2018-05-15T14:38:20Z">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[Session ID is null. Using WebDriver after calling quit()?Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:33:08.638Z'System info: host: 'DESKTOP-QE6D7HJ', ip: '172.16.4.189', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'Driver info: driver.version: RemoteWebDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:33:08.638Z'System info: host: 'DESKTOP-QE6D7HJ', ip: '172.16.4.189', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'Driver info: driver.version: RemoteWebDriverat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:273)at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.to(RemoteWebDriver.java:856)at utils.BaseTest.setUp(BaseTest.java:22)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.lang.reflect.Method.invoke(Unknown Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:451)at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:163)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="SKIP" signature="setUp()[pri:0, instance:tests.LoginTest@5b275dab]" name="setUp" is-config="true" duration-ms="0" started-at="2018-05-15T14:38:20Z" finished-at="2018-05-15T14:38:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="carrinhoTest()[pri:0, instance:tests.CarrinhoTest@14acaea5]" name="carrinhoTest" duration-ms="71802" started-at="2018-05-15T11:38:06Z" finished-at="2018-05-15T11:39:18Z">
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:tests.LoginTest@5b275dab]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-05-15T14:38:20Z" finished-at="2018-05-15T14:38:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.LoginTest -->
+      <class name="tests.NossasLojasTest">
+        <test-method status="SKIP" signature="setUp()[pri:0, instance:tests.NossasLojasTest@523884b2]" name="setUp" is-config="true" duration-ms="0" started-at="2018-05-15T14:38:20Z" finished-at="2018-05-15T14:38:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="nossasLojasTest()[pri:0, instance:tests.NossasLojasTest@523884b2]" name="nossasLojasTest" duration-ms="0" started-at="2018-05-15T14:38:20Z" finished-at="2018-05-15T14:38:20Z">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[Session ID is null. Using WebDriver after calling quit()?Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:33:08.638Z'System info: host: 'DESKTOP-QE6D7HJ', ip: '172.16.4.189', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'Driver info: driver.version: RemoteWebDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:33:08.638Z'System info: host: 'DESKTOP-QE6D7HJ', ip: '172.16.4.189', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'Driver info: driver.version: RemoteWebDriverat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:273)at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.to(RemoteWebDriver.java:856)at utils.BaseTest.setUp(BaseTest.java:22)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.lang.reflect.Method.invoke(Unknown Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:451)at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:163)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nossasLojasTest -->
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:tests.NossasLojasTest@523884b2]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-05-15T14:38:20Z" finished-at="2018-05-15T14:38:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.NossasLojasTest -->
+      <class name="tests.HomePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.HomePageTest@28d25987]" name="setUp" is-config="true" duration-ms="19995" started-at="2018-05-15T14:37:53Z" finished-at="2018-05-15T14:38:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="homePageTest()[pri:0, instance:tests.HomePageTest@28d25987]" name="homePageTest" duration-ms="5197" started-at="2018-05-15T14:38:13Z" finished-at="2018-05-15T14:38:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.HomePageTest@28d25987]" name="tearDown" is-config="true" duration-ms="971" started-at="2018-05-15T14:38:19Z" finished-at="2018-05-15T14:38:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.HomePageTest -->
+      <class name="tests.ListaPresenteTest">
+        <test-method status="SKIP" signature="listaPresenteTest()[pri:0, instance:tests.ListaPresenteTest@4501b7af]" name="listaPresenteTest" duration-ms="0" started-at="2018-05-15T14:38:20Z" finished-at="2018-05-15T14:38:20Z">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[Session ID is null. Using WebDriver after calling quit()?Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:33:08.638Z'System info: host: 'DESKTOP-QE6D7HJ', ip: '172.16.4.189', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'Driver info: driver.version: RemoteWebDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:33:08.638Z'System info: host: 'DESKTOP-QE6D7HJ', ip: '172.16.4.189', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'Driver info: driver.version: RemoteWebDriverat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:273)at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.to(RemoteWebDriver.java:856)at utils.BaseTest.setUp(BaseTest.java:22)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.lang.reflect.Method.invoke(Unknown Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:451)at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:163)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- listaPresenteTest -->
+        <test-method status="FAIL" signature="setUp()[pri:0, instance:tests.ListaPresenteTest@4501b7af]" name="setUp" is-config="true" duration-ms="0" started-at="2018-05-15T14:38:20Z" finished-at="2018-05-15T14:38:20Z">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[Session ID is null. Using WebDriver after calling quit()?Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:33:08.638Z'System info: host: 'DESKTOP-QE6D7HJ', ip: '172.16.4.189', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'Driver info: driver.version: RemoteWebDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:33:08.638Z'System info: host: 'DESKTOP-QE6D7HJ', ip: '172.16.4.189', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'Driver info: driver.version: RemoteWebDriverat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:273)at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.to(RemoteWebDriver.java:856)at utils.BaseTest.setUp(BaseTest.java:22)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.lang.reflect.Method.invoke(Unknown Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:451)at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:163)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:tests.ListaPresenteTest@4501b7af]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-05-15T14:38:20Z" finished-at="2018-05-15T14:38:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.ListaPresenteTest -->
+      <class name="tests.CarrinhoTest">
+        <test-method status="SKIP" signature="carrinhoTest()[pri:0, instance:tests.CarrinhoTest@61832929]" name="carrinhoTest" duration-ms="0" started-at="2018-05-15T14:38:20Z" finished-at="2018-05-15T14:38:20Z">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[Session ID is null. Using WebDriver after calling quit()?Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:33:08.638Z'System info: host: 'DESKTOP-QE6D7HJ', ip: '172.16.4.189', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'Driver info: driver.version: RemoteWebDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:33:08.638Z'System info: host: 'DESKTOP-QE6D7HJ', ip: '172.16.4.189', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'Driver info: driver.version: RemoteWebDriverat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:273)at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.to(RemoteWebDriver.java:856)at utils.BaseTest.setUp(BaseTest.java:22)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.lang.reflect.Method.invoke(Unknown Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:451)at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:163)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- carrinhoTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.CarrinhoTest@14acaea5]" name="tearDown" is-config="true" duration-ms="939" started-at="2018-05-15T11:39:18Z" finished-at="2018-05-15T11:39:19Z">
+        <test-method status="SKIP" signature="setUp()[pri:0, instance:tests.CarrinhoTest@61832929]" name="setUp" is-config="true" duration-ms="0" started-at="2018-05-15T14:38:20Z" finished-at="2018-05-15T14:38:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:tests.CarrinhoTest@61832929]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-05-15T14:38:20Z" finished-at="2018-05-15T14:38:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.CarrinhoTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- SuiteTest -->
+  </suite> <!-- TesteSuite -->
 </testng-results>

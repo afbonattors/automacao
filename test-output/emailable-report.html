@@ -8,11 +8,73 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="7">Default suite</th></tr>
-<tr><td><a href="#t0">Default test</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">88.857</td><td></td><td></td></tr>
+<tr><th colspan="7">TesteSuite</th></tr>
+<tr><td><a href="#t0">SuiteTest</a></td><td class="num">1</td><td class="num attn">4</td><td class="num">0</td><td class="num">26.247</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">tests.CarrinhoTest</td><td><a href="#m0">carrinhoTest</a></td><td rowspan="1">1526395086622</td><td rowspan="1">71802</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">TesteSuite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">SuiteTest &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">tests.ListaPresenteTest</td><td><a href="#m0">setUp</a></td><td rowspan="1">1526405900127</td><td rowspan="1">0</td></tr><tr><th colspan="4">SuiteTest &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="2">tests.CarrinhoTest</td><td><a href="#m1">setUp</a></td><td rowspan="1">1526405900174</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m2">tearDown</a></td><td rowspan="1">1526405900174</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td rowspan="1">tests.ListaPresenteTest</td><td><a href="#m3">tearDown</a></td><td rowspan="1">1526405900143</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td rowspan="2">tests.LoginTest</td><td><a href="#m4">setUp</a></td><td rowspan="1">1526405900158</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m5">tearDown</a></td><td rowspan="1">1526405900158</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td rowspan="2">tests.NossasLojasTest</td><td><a href="#m6">setUp</a></td><td rowspan="1">1526405900143</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td><a href="#m7">tearDown</a></td><td rowspan="1">1526405900158</td><td rowspan="1">0</td></tr><tr><th colspan="4">SuiteTest &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">tests.CarrinhoTest</td><td><a href="#m8">carrinhoTest</a></td><td rowspan="1">1526405900174</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td rowspan="1">tests.ListaPresenteTest</td><td><a href="#m9">listaPresenteTest</a></td><td rowspan="1">1526405900127</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td rowspan="1">tests.LoginTest</td><td><a href="#m10">loginTest</a></td><td rowspan="1">1526405900158</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td rowspan="1">tests.NossasLojasTest</td><td><a href="#m11">nossasLojasTest</a></td><td rowspan="1">1526405900158</td><td rowspan="1">0</td></tr><tr><th colspan="4">SuiteTest &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">tests.HomePageTest</td><td><a href="#m12">homePageTest</a></td><td rowspan="1">1526405893959</td><td rowspan="1">5197</td></tr></tbody>
 </table>
-<h2>Default test</h2><h3 id="m0">tests.CarrinhoTest#carrinhoTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>SuiteTest</h2><h3 id="m0">tests.ListaPresenteTest#setUp</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:33:08.638Z&apos;
+System info: host: &apos;DESKTOP-QE6D7HJ&apos;, ip: &apos;172.16.4.189&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:273)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.to(RemoteWebDriver.java:856)
+	at utils.BaseTest.setUp(BaseTest.java:22)
+... Removed 26 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">tests.CarrinhoTest#setUp</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">tests.CarrinhoTest#tearDown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">tests.ListaPresenteTest#tearDown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">tests.LoginTest#setUp</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">tests.LoginTest#tearDown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">tests.NossasLojasTest#setUp</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">tests.NossasLojasTest#tearDown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">tests.CarrinhoTest#carrinhoTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:33:08.638Z&apos;
+System info: host: &apos;DESKTOP-QE6D7HJ&apos;, ip: &apos;172.16.4.189&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:273)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.to(RemoteWebDriver.java:856)
+	at utils.BaseTest.setUp(BaseTest.java:22)
+... Removed 26 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">tests.ListaPresenteTest#listaPresenteTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:33:08.638Z&apos;
+System info: host: &apos;DESKTOP-QE6D7HJ&apos;, ip: &apos;172.16.4.189&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:273)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.to(RemoteWebDriver.java:856)
+	at utils.BaseTest.setUp(BaseTest.java:22)
+... Removed 26 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">tests.LoginTest#loginTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:33:08.638Z&apos;
+System info: host: &apos;DESKTOP-QE6D7HJ&apos;, ip: &apos;172.16.4.189&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:273)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.to(RemoteWebDriver.java:856)
+	at utils.BaseTest.setUp(BaseTest.java:22)
+... Removed 26 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">tests.NossasLojasTest#nossasLojasTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:33:08.638Z&apos;
+System info: host: &apos;DESKTOP-QE6D7HJ&apos;, ip: &apos;172.16.4.189&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:273)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.to(RemoteWebDriver.java:856)
+	at utils.BaseTest.setUp(BaseTest.java:22)
+... Removed 26 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">tests.HomePageTest#homePageTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
