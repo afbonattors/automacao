@@ -3,8 +3,6 @@ package tests;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import pages.FooterClass;
-import pages.HeaderClass;
 import pages.NossasLojas_Page;
 import scripts.Footer_Script;
 import scripts.Header_Script;
