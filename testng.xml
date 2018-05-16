@@ -2,11 +2,11 @@
 <suite name="TesteSuite" >
 	<test name="SuiteTest" >
 		<classes>
-			<class name="tests.HomePageTest" />
-			<class name="tests.ListaPresenteTest" />
-			<class name="tests.NossasLojasTest" />
-			<class name="tests.LoginTest" />
-			<class name="tests.CarrinhoTest" />
+			<class name="tests.HomePage_Test" />
+			<class name="tests.ListaPresente_Test" />
+			<class name="tests.NossasLojas_Test" />
+			<class name="tests.Login_Test" />
+			<class name="tests.Carrinho_Test" />
 		</classes>
 	</test>
 </suite>
