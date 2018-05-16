@@ -3,9 +3,8 @@ package tests;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import pages.FooterClass;
-import pages.HeaderClass;
 import pages.Home_Page;
+import scripts.Footer_Script;
 import scripts.Header_Script;
 import scripts.Home_Script;
 import utils.BaseTest;
@@ -92,23 +91,7 @@ public class HomePage_Test extends BaseTest {
 
         Assert.assertTrue(catMais.contains(mais));
         
-        Assert.assertTrue(FooterClass.footerHome().isDisplayed());
-        
-        Assert.assertTrue(FooterClass.divSaibaMaisFooter().isDisplayed());
-        
-        Assert.assertTrue(FooterClass.divCentralAtendimentoFooter().isDisplayed());
-        
-        Assert.assertTrue(FooterClass.divServicosFooter().isDisplayed());
-        
-        Assert.assertTrue(FooterClass.divSegurancaPrivacidadeFooter().isDisplayed());
-        
-        Assert.assertTrue(FooterClass.divTelefonesFooter().isDisplayed());
-        
-        Assert.assertTrue(FooterClass.divTelevendasFooter().isDisplayed());
-        
-        Assert.assertTrue(FooterClass.divAcompanheEtnaFooter().isDisplayed());
-        
-        Assert.assertTrue(FooterClass.divTextoRodape().isDisplayed());
+        Footer_Script.validaFooter();
 
     }
 
