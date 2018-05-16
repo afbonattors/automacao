@@ -2,14 +2,10 @@ package tests;
 
 import org.testng.annotations.Test;
 
-import pages.FooterClass;
-import pages.HeaderClass;
-import pages.ListaDePresentes_Page;
 import scripts.Footer_Script;
 import scripts.Header_Script;
+import scripts.ListaDePresentes_Script;
 import utils.BaseTest;
-
-import org.testng.Assert;
 
 public class ListaPresente_Test extends BaseTest {
   
@@ -27,7 +23,7 @@ public class ListaPresente_Test extends BaseTest {
 	    	
 	    Thread.sleep(1000);
 	    	
-	    
+	    ListaDePresentes_Script.validaListaPresentes();
 	    
 	    Footer_Script.validaFooter();
 	        
