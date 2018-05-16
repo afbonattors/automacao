@@ -5,6 +5,8 @@ import org.testng.annotations.Test;
 
 import pages.HeaderClass;
 import pages.Home_Page;
+import scripts.Footer_Script;
+import scripts.Header_Script;
 import scripts.Home_Script;
 import utils.BaseTest;
 
@@ -16,17 +18,7 @@ public class Login_Test extends BaseTest {
 	  
 	  System.out.println("\nTeste de login.");
   	
-	  Assert.assertTrue(HeaderClass.headerHome().isDisplayed());
-  	
-	  Assert.assertTrue(HeaderClass.logoEtna().isDisplayed());
-  	
-	  Assert.assertTrue(HeaderClass.textfiledBusca().isDisplayed());
-  	
-	  Assert.assertTrue(HeaderClass.listaCasamento().isDisplayed());
-  	
-	  Assert.assertTrue(HeaderClass.nossasLojas().isDisplayed());
-  	
-	  Assert.assertTrue(HeaderClass.iconeCarrinho().isDisplayed());
+	  Header_Script.validaHeader();
 
       Home_Script.clicaFacaLogin();
       
@@ -43,6 +35,8 @@ public class Login_Test extends BaseTest {
       String usuarioLogadoCorreto = "afbonatto";
       
       Assert.assertTrue(usuarioLogado.contains(usuarioLogadoCorreto));
+      
+      Footer_Script.validaFooter();
       
   }  
 
