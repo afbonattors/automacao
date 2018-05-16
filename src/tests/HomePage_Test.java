@@ -6,6 +6,7 @@ import org.testng.annotations.Test;
 import pages.FooterClass;
 import pages.HeaderClass;
 import pages.Home_Page;
+import scripts.Header_Script;
 import scripts.Home_Script;
 import utils.BaseTest;
 
@@ -21,17 +22,7 @@ public class HomePage_Test extends BaseTest {
     	
     	Assert.assertTrue(TituloPagina.equals("Etna"), "HML Indisponível");
     	
-    	Assert.assertTrue(HeaderClass.headerHome().isDisplayed());
-    	
-    	Assert.assertTrue(HeaderClass.logoEtna().isDisplayed());
-    	
-    	Assert.assertTrue(HeaderClass.textfiledBusca().isDisplayed());
-    	
-    	Assert.assertTrue(HeaderClass.listaCasamento().isDisplayed());
-    	
-    	Assert.assertTrue(HeaderClass.nossasLojas().isDisplayed());
-    	
-    	Assert.assertTrue(HeaderClass.iconeCarrinho().isDisplayed());  	
+    	Header_Script.validaHeader();
     	
     	Home_Script.clicaFacaLogin();
     	
