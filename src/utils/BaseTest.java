@@ -45,6 +45,7 @@ public abstract class BaseTest {
     	System.out.println("\nFecha driver.\n");
 
         getDriver().quit();
+        driver = null;
 
     }
 }
