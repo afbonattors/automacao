@@ -2,76 +2,76 @@
 <testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="TesteSuite" duration-ms="212772" started-at="2018-05-16T14:02:27Z" finished-at="2018-05-16T14:06:00Z">
+  <suite name="TesteSuite" duration-ms="256542" started-at="2018-05-16T19:18:05Z" finished-at="2018-05-16T19:22:22Z">
     <groups>
     </groups>
-    <test name="SuiteTest" duration-ms="212772" started-at="2018-05-16T14:02:27Z" finished-at="2018-05-16T14:06:00Z">
+    <test name="SuiteTest" duration-ms="256542" started-at="2018-05-16T19:18:05Z" finished-at="2018-05-16T19:22:22Z">
       <class name="tests.NossasLojas_Test">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.NossasLojas_Test@523884b2]" name="setUp" is-config="true" duration-ms="21621" started-at="2018-05-16T11:03:51Z" finished-at="2018-05-16T11:04:13Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.NossasLojas_Test@523884b2]" name="setUp" is-config="true" duration-ms="37155" started-at="2018-05-16T16:19:55Z" finished-at="2018-05-16T16:20:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="nossasLojasTest()[pri:0, instance:tests.NossasLojas_Test@523884b2]" name="nossasLojasTest" duration-ms="17179" started-at="2018-05-16T11:04:13Z" finished-at="2018-05-16T11:04:30Z">
+        <test-method status="PASS" signature="nossasLojasTest()[pri:0, instance:tests.NossasLojas_Test@523884b2]" name="nossasLojasTest" duration-ms="8458" started-at="2018-05-16T16:20:32Z" finished-at="2018-05-16T16:20:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- nossasLojasTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.NossasLojas_Test@523884b2]" name="tearDown" is-config="true" duration-ms="807" started-at="2018-05-16T11:04:30Z" finished-at="2018-05-16T11:04:31Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.NossasLojas_Test@523884b2]" name="tearDown" is-config="true" duration-ms="843" started-at="2018-05-16T16:20:40Z" finished-at="2018-05-16T16:20:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.NossasLojas_Test -->
       <class name="tests.Login_Test">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.Login_Test@5b275dab]" name="setUp" is-config="true" duration-ms="14622" started-at="2018-05-16T11:04:31Z" finished-at="2018-05-16T11:04:46Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.Login_Test@5b275dab]" name="setUp" is-config="true" duration-ms="35217" started-at="2018-05-16T16:20:41Z" finished-at="2018-05-16T16:21:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginTest()[pri:0, instance:tests.Login_Test@5b275dab]" name="loginTest" duration-ms="14469" started-at="2018-05-16T11:04:46Z" finished-at="2018-05-16T11:05:00Z">
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:tests.Login_Test@5b275dab]" name="loginTest" duration-ms="11781" started-at="2018-05-16T16:21:16Z" finished-at="2018-05-16T16:21:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.Login_Test@5b275dab]" name="tearDown" is-config="true" duration-ms="937" started-at="2018-05-16T11:05:00Z" finished-at="2018-05-16T11:05:01Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.Login_Test@5b275dab]" name="tearDown" is-config="true" duration-ms="915" started-at="2018-05-16T16:21:28Z" finished-at="2018-05-16T16:21:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.Login_Test -->
       <class name="tests.HomePage_Test">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.HomePage_Test@28d25987]" name="setUp" is-config="true" duration-ms="25993" started-at="2018-05-16T11:02:27Z" finished-at="2018-05-16T11:02:53Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.HomePage_Test@28d25987]" name="setUp" is-config="true" duration-ms="55080" started-at="2018-05-16T16:18:05Z" finished-at="2018-05-16T16:19:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="homePageTest()[pri:0, instance:tests.HomePage_Test@28d25987]" name="homePageTest" duration-ms="6941" started-at="2018-05-16T11:02:53Z" finished-at="2018-05-16T11:03:00Z">
+        <test-method status="PASS" signature="homePageTest()[pri:0, instance:tests.HomePage_Test@28d25987]" name="homePageTest" duration-ms="5177" started-at="2018-05-16T16:19:01Z" finished-at="2018-05-16T16:19:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- homePageTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.HomePage_Test@28d25987]" name="tearDown" is-config="true" duration-ms="921" started-at="2018-05-16T11:03:00Z" finished-at="2018-05-16T11:03:01Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.HomePage_Test@28d25987]" name="tearDown" is-config="true" duration-ms="834" started-at="2018-05-16T16:19:06Z" finished-at="2018-05-16T16:19:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.HomePage_Test -->
       <class name="tests.ListaPresente_Test">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.ListaPresente_Test@4501b7af]" name="setUp" is-config="true" duration-ms="34947" started-at="2018-05-16T11:03:01Z" finished-at="2018-05-16T11:03:36Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.ListaPresente_Test@4501b7af]" name="setUp" is-config="true" duration-ms="38067" started-at="2018-05-16T16:19:07Z" finished-at="2018-05-16T16:19:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="listaPresenteTest()[pri:0, instance:tests.ListaPresente_Test@4501b7af]" name="listaPresenteTest" duration-ms="14502" started-at="2018-05-16T11:03:36Z" finished-at="2018-05-16T11:03:50Z">
+        <test-method status="PASS" signature="listaPresenteTest()[pri:0, instance:tests.ListaPresente_Test@4501b7af]" name="listaPresenteTest" duration-ms="9276" started-at="2018-05-16T16:19:45Z" finished-at="2018-05-16T16:19:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- listaPresenteTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.ListaPresente_Test@4501b7af]" name="tearDown" is-config="true" duration-ms="937" started-at="2018-05-16T11:03:50Z" finished-at="2018-05-16T11:03:51Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.ListaPresente_Test@4501b7af]" name="tearDown" is-config="true" duration-ms="889" started-at="2018-05-16T16:19:54Z" finished-at="2018-05-16T16:19:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.ListaPresente_Test -->
       <class name="tests.Carrinho_Test">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.Carrinho_Test@61832929]" name="setUp" is-config="true" duration-ms="17857" started-at="2018-05-16T11:05:01Z" finished-at="2018-05-16T11:05:19Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.Carrinho_Test@61832929]" name="setUp" is-config="true" duration-ms="15251" started-at="2018-05-16T16:21:29Z" finished-at="2018-05-16T16:21:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="carrinhoTest()[pri:0, instance:tests.Carrinho_Test@61832929]" name="carrinhoTest" duration-ms="40117" started-at="2018-05-16T11:05:19Z" finished-at="2018-05-16T11:05:59Z">
+        <test-method status="PASS" signature="carrinhoTest()[pri:0, instance:tests.Carrinho_Test@61832929]" name="carrinhoTest" duration-ms="36513" started-at="2018-05-16T16:21:44Z" finished-at="2018-05-16T16:22:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- carrinhoTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.Carrinho_Test@61832929]" name="tearDown" is-config="true" duration-ms="879" started-at="2018-05-16T11:05:59Z" finished-at="2018-05-16T11:06:00Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.Carrinho_Test@61832929]" name="tearDown" is-config="true" duration-ms="1044" started-at="2018-05-16T16:22:21Z" finished-at="2018-05-16T16:22:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

@@ -6,6 +6,8 @@ import org.testng.annotations.Test;
 
 import pages.HeaderClass;
 import pages.PesquisaProduto_Page;
+import scripts.Footer_Script;
+import scripts.Header_Script;
 import scripts.PesquisaProduto_Script;
 import utils.BaseTest;
 
@@ -19,17 +21,7 @@ public class Carrinho_Test extends BaseTest {
     	
     	Thread.sleep(1000);
     	
-    	Assert.assertTrue(HeaderClass.headerHome().isDisplayed());
-    	
-    	Assert.assertTrue(HeaderClass.logoEtna().isDisplayed());
-    	
-    	Assert.assertTrue(HeaderClass.textfiledBusca().isDisplayed());
-    	
-    	Assert.assertTrue(HeaderClass.listaCasamento().isDisplayed());
-    	
-    	Assert.assertTrue(HeaderClass.nossasLojas().isDisplayed());
-    	
-    	Assert.assertTrue(HeaderClass.iconeCarrinho().isDisplayed());
+    	Header_Script.validaHeader();
     	
     	PesquisaProduto_Script.clicaLupa();
     	
@@ -73,7 +65,9 @@ public class Carrinho_Test extends BaseTest {
     	
     	Thread.sleep(3000);
     	
-    	Assert.assertTrue(PesquisaProduto_Page.labelNaoHaProduto().isEnabled());    	
+    	Assert.assertTrue(PesquisaProduto_Page.labelNaoHaProduto().isEnabled());
+    	
+    	Footer_Script.validaFooter();
     	
     }
 	
