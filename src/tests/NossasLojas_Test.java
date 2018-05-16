@@ -9,7 +9,7 @@ import pages.NossasLojas_Page;
 import scripts.NossasLojas_Script;
 import utils.BaseTest;
 
-public class NossasLojasTest extends BaseTest {
+public class NossasLojas_Test extends BaseTest {
   
 	@Test
     

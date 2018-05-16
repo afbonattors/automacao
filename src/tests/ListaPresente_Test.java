@@ -10,7 +10,7 @@ import utils.BaseTest;
 
 import org.testng.Assert;
 
-public class ListaPresenteTest extends BaseTest {
+public class ListaPresente_Test extends BaseTest {
   
 	@Test
 	

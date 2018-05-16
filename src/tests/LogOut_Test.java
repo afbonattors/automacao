@@ -9,7 +9,7 @@ import scripts.Header_Script;
 import scripts.LogOut_Script;
 import utils.BaseTest;
 
-public class LogOutTest extends BaseTest {
+public class LogOut_Test extends BaseTest {
 	
 	@Test
     

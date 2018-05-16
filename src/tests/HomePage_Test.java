@@ -9,7 +9,7 @@ import pages.Home_Page;
 import scripts.Home_Script;
 import utils.BaseTest;
 
-public class HomePageTest extends BaseTest {
+public class HomePage_Test extends BaseTest {
 
     @Test
 

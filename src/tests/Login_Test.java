@@ -8,7 +8,7 @@ import pages.Home_Page;
 import scripts.Home_Script;
 import utils.BaseTest;
 
-public class LoginTest extends BaseTest {
+public class Login_Test extends BaseTest {
 	
   @Test
   

@@ -9,7 +9,7 @@ import pages.PesquisaProduto_Page;
 import scripts.PesquisaProduto_Script;
 import utils.BaseTest;
 
-public class CarrinhoTest extends BaseTest {
+public class Carrinho_Test extends BaseTest {
 	
 	@Test
     
