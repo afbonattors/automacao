@@ -6,6 +6,8 @@ import org.testng.annotations.Test;
 import pages.FooterClass;
 import pages.HeaderClass;
 import pages.NossasLojas_Page;
+import scripts.Footer_Script;
+import scripts.Header_Script;
 import scripts.NossasLojas_Script;
 import utils.BaseTest;
 
@@ -21,17 +23,7 @@ public class NossasLojas_Test extends BaseTest {
     	
     	Thread.sleep(1000);
     	
-    	Assert.assertTrue(HeaderClass.headerHome().isDisplayed());
-    	
-    	Assert.assertTrue(HeaderClass.logoEtna().isDisplayed());
-    	
-    	Assert.assertTrue(HeaderClass.textfiledBusca().isDisplayed());
-    	
-    	Assert.assertTrue(HeaderClass.listaCasamento().isDisplayed());
-    	
-    	Assert.assertTrue(HeaderClass.nossasLojas().isDisplayed());
-    	
-    	Assert.assertTrue(HeaderClass.iconeCarrinho().isDisplayed());
+    	Header_Script.validaHeader();
     	
     	Assert.assertTrue(NossasLojas_Page.divNossasLojas().isDisplayed());
     	
@@ -91,23 +83,7 @@ public class NossasLojas_Test extends BaseTest {
     	
     	Assert.assertTrue(NossasLojas_Page.divSorocaba().isDisplayed());
     	
-        Assert.assertTrue(FooterClass.footerHome().isDisplayed());
-        
-        Assert.assertTrue(FooterClass.divSaibaMaisFooter().isDisplayed());
-        
-        Assert.assertTrue(FooterClass.divCentralAtendimentoFooter().isDisplayed());
-        
-        Assert.assertTrue(FooterClass.divServicosFooter().isDisplayed());
-        
-        Assert.assertTrue(FooterClass.divSegurancaPrivacidadeFooter().isDisplayed());
-        
-        Assert.assertTrue(FooterClass.divTelefonesFooter().isDisplayed());
-        
-        Assert.assertTrue(FooterClass.divTelevendasFooter().isDisplayed());
-        
-        Assert.assertTrue(FooterClass.divAcompanheEtnaFooter().isDisplayed());
-        
-        Assert.assertTrue(FooterClass.divTextoRodape().isDisplayed());
+        Footer_Script.validaFooter();
     	
     }
 }

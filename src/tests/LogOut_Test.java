@@ -3,7 +3,6 @@ package tests;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import pages.HeaderClass;
 import pages.Home_Page;
 import scripts.Header_Script;
 import scripts.LogOut_Script;
@@ -21,17 +20,7 @@ public class LogOut_Test extends BaseTest {
     	
     	Thread.sleep(1000);
     	
-    	Assert.assertTrue(HeaderClass.headerHome().isDisplayed());
-    	
-    	Assert.assertTrue(HeaderClass.logoEtna().isDisplayed());
-    	
-    	Assert.assertTrue(HeaderClass.textfiledBusca().isDisplayed());
-    	
-    	Assert.assertTrue(HeaderClass.listaCasamento().isDisplayed());
-    	
-    	Assert.assertTrue(HeaderClass.nossasLojas().isDisplayed());
-    	
-    	Assert.assertTrue(HeaderClass.iconeCarrinho().isDisplayed());
+    	Header_Script.validaHeader();
     	
     	LogOut_Script.clicaMinhaConta();
     	
@@ -48,6 +37,8 @@ public class LogOut_Test extends BaseTest {
     	Assert.assertTrue(facaLogin.contains(OlaFacaLogin));
     	
     	Thread.sleep(1000);
+    	
+    	Header_Script.validaHeader();
     	
     }
 	
